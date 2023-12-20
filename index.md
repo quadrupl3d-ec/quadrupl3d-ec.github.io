@@ -2,4 +2,4 @@
 layout: home
 ---
 
-November, 2022 - [Rewriting modularjs](/devlog/rewriting-modularjs)<br>
+December, 2023 - [Week 1](devlog/week%201.md)<br>
