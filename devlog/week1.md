@@ -44,14 +44,15 @@ Steps to perform a dual boot to install the bare metal:
 - Clone Ab's starter branch
   
        git clone --branch starter git@github.com:ab-emptycup/ab-emptycup.github.io.git
-  
-- Switch to main branch
-  
-       git checkout main
+
 
 - In the local repository (ab-emptycup.github.io), update the remote URL to point to newly created repository:
 
       git remote set-url origin git@github.com:quadrupl3d-ec/quadrupl3d-ec.github.io.git
+
+- Switch to main branch
+  
+       git checkout main
 - Push the modified version of forked repo.
   
       git push origin main
