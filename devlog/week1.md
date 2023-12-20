@@ -56,6 +56,6 @@ Steps to perform a dual boot to install the bare metal:
 - Push the modified version of forked repo.
   
       git push origin main
-  <br>
------
 
+-----
+<br>
