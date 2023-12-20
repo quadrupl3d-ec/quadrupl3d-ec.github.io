@@ -2,10 +2,10 @@ theme: minima
 minima:
   skin: dark
 
-title: Ab
-author: ab-emptycup
+title: QuadWorks
+author: quadrupl3d-ec
 description: ""
-email: ab@emptycup.in
+email: quadrupl3d@emptycup.in
 
 header_pages:
   - index.md
