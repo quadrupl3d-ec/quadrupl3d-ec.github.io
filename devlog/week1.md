@@ -9,7 +9,7 @@ title: Week 1
 Connected with sir @Ab and received the credentials of the newly created gmail account.  
 Gmail - `quadrupl3d@gmail.com` 
 
-### Dual boot Kali Linux 2023.4 (Bare Metal).  
+### 1. Dual boot Kali Linux 2023.4 (Bare Metal).  
 Steps to perform a dual boot to install the bare metal:
 - Download the ISO file from the official website and use Rufus to create an installation media
 - Create 150 GB of unallocated / free space using windows disk manager.
@@ -22,10 +22,10 @@ Steps to perform a dual boot to install the bare metal:
 - Uncheck “xfce”, “KDE Plasma”, “Desktop environment” in the section “Softwares to install”.
 - Time to boot into the newly created OS.
 
-### Login to gmail using quadrupl3d@github.in
+### 2. Login to gmail using quadrupl3d@github.in
 
-### Create a Github account.
-### Setup SSH access to github account.
+### 3. Create a Github account.
+### 4. Setup SSH access to github account.
 - Creating SSH keys for the newly installed Kali Linux
 
       ssh-keygen -t rsa -b 4096 -C "quadrupl3d@emptycup.in"
@@ -39,7 +39,7 @@ Steps to perform a dual boot to install the bare metal:
 ![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/687e260d-d166-450c-a1ff-765bb7c9b821)
 
 
-### Setup Worklog.
+### 5. Setup Worklog.
 - Create a new repository called "quadrupl3d-ec.github.io" (Github Pages)
 - Clone Ab's starter branch
   
@@ -55,6 +55,6 @@ Steps to perform a dual boot to install the bare metal:
 - Push the modified version of forked repo.
   
       git push origin main
-  
+  <br>
 -----
-<br>
+
