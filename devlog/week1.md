@@ -69,9 +69,12 @@ Kali Linux is not much compatible for development environment. I've tried to acc
 - Now that we have the EmptyCup docs setup at `localhost:9999`, we have to install docker-desktop GUI application on ubuntu,
 Docker-desktop installation for [ubuntu](https://docs.docker.com/desktop/install/ubuntu/)
 
-For non-Gnome Desktop environments, gnome-terminal must be installed:
+For non-Gnome Desktop environments, **gnome-terminal must be installed**:
 
       sudo apt install gnome-terminal
+
+
+  
 Download latest [DEB package](https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64&_gl=1*daj8tt*_ga*NDgzOTI5LjE3MDMyNTA3ODM.*_ga_XJWPQMJYHQ*MTcwMzMwOTgxOC40LjEuMTcwMzMxMDI4Mi42MC4wLjA.)
 
 Install docker-desktop
@@ -80,12 +83,12 @@ Install docker-desktop
             
 - Install Docker Engine on Ubuntu on Ubuntu Jammy 22.04 (LTS)
 
-Run the following command to uninstall all conflicting packages:
+Run the following command to **uninstall all conflicting packages**:
 
       for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository.
       
-1. Set up Docker's apt repository.
+1. **Set up Docker's apt repository**.
 
             # Add Docker's official GPG key:
             sudo apt-get update
@@ -102,11 +105,11 @@ Before you install Docker Engine for the first time on a new host machine, you n
             sudo apt-get update
 
             
-2. Install the Docker packages.
+2. **Install the Docker packages**.
 
          sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
   
-3. Verify that the Docker Engine installation is successful by running the hello-world image.
+3. **Verify that the Docker Engine installation is successful by running the hello-world image**.
 
           sudo docker run hello-world
 
@@ -117,7 +120,7 @@ Upon checking the docker context, you will find two docker engines: `default` an
 ![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/c9af6950-a8a2-4389-af99-c39449d608a3)
 
 
-The GUI application contains the same two builders, `ecrebuild` and `ecstart` must be executed with the same engine used by the GUI application otherwise your container will not be visible in the GUI application.
+The GUI application contains the same two builders, `ecrebuild` and `ecstart` must be executed with the same engine used by the GUI application **otherwise your container will not be visible in the GUI application**.
 
 In our case, we will using the newly-installed `desktop-linux` engine.
 
@@ -125,17 +128,17 @@ In our case, we will using the newly-installed `desktop-linux` engine.
 
 ![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/66c86441-a7c4-4650-9e6c-6a7222b8d619)
 
-- Since the GUI application is launched with the normal user privileges, therefore change the ownership of the emptycup3d folder to the currently logged-in user:
+- Since the GUI application is launched with the normal user privileges, therefore **change the ownership of the emptycup3d folder to the currently logged-in user**:
 
        sudo chown -R username:username /var/www/emptycup/emptycup3d
 
 ![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/53363778-9135-4f37-af25-381b60b26386)
 
-- Time to build the empire.
+- **Time to build the empire**.
 
        ecrebuild
 
-- Start the containers
+- **Start the containers**
   
        ecstart
 
@@ -151,5 +154,34 @@ In our case, we will using the newly-installed `desktop-linux` engine.
 If you encounted logs like below, then manually create the `nonexistent` directory and restart the container.
 
 ![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/a143c148-b135-4cf1-9816-e3c680bce5f4)
+<br>
+  
+----
+
+### If the `desktop-linux` engine does'nt works at first glance
+
+- Completely remove the `docker-desktop` and the `cli` engine from your system
+
+      # Stop all running containers. (in case if you have used the default docker engine)
+      docker stop $(docker ps -q)
+
+      # Remove all containers, including those that are stopped.
+      docker rm $(docker ps -aq)
+
+      # remove the images associated with the containers
+      docker rmi $(docker images -q)
+
+      sudo service docker stop
+      sudo apt-get purge docker-ce docker-ce-cli containerd.io
+      sudo rm -rf /var/lib/docker
+      sudo apt-get autoremove
+      sudo apt-get update
+
+- Don't remove the docker's GPG key and anything from apt sources.list.d
+- Now reinstall the [DEB package](https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64&_gl=1*daj8tt*_ga*NDgzOTI5LjE3MDMyNTA3ODM.*_ga_XJWPQMJYHQ*MTcwMzMwOTgxOC40LjEuMTcwMzMxMDI4Mi42MC4wLjA.)
+  
+- Use the `desktop-linux` engine and execute `rebuild` and `ecstart`.
+- It is guaranteed to work now.
+
 
 
