@@ -59,3 +59,97 @@ Steps to perform a dual boot to install the bare metal:
 
 -----
 <br>
+
+## Friday: December 22
+
+Kali Linux is not much compatible for development environment. I've tried to access the docs at `http://localhost:9999` but there were missing development dependencies therefore switched to Ubuntu upon Ab's directives.  
+
+### 1. Dual boot Ubuntu LTS 22.04.3 (Bare Metal).  
+### 2. Trying to deploy the web application to Docker containers.
+- Now that we have the EmptyCup docs setup at `localhost:9999`, we have to install docker-desktop GUI application on ubuntu,
+Docker-desktop installation for [ubuntu](https://docs.docker.com/desktop/install/ubuntu/)
+
+For non-Gnome Desktop environments, gnome-terminal must be installed:
+
+      sudo apt install gnome-terminal
+Download latest [DEB package](https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64&_gl=1*daj8tt*_ga*NDgzOTI5LjE3MDMyNTA3ODM.*_ga_XJWPQMJYHQ*MTcwMzMwOTgxOC40LjEuMTcwMzMxMDI4Mi42MC4wLjA.)
+
+Install docker-desktop
+
+      sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+            
+- Install Docker Engine on Ubuntu on Ubuntu Jammy 22.04 (LTS)
+
+Run the following command to uninstall all conflicting packages:
+
+      for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository.
+      
+1. Set up Docker's apt repository.
+
+            # Add Docker's official GPG key:
+            sudo apt-get update
+            sudo apt-get install ca-certificates curl gnupg
+            sudo install -m 0755 -d /etc/apt/keyrings
+            curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+            sudo chmod a+r /etc/apt/keyrings/docker.gpg
+            
+            # Add the repository to Apt sources:
+            echo \
+              "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+              $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+              sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+            sudo apt-get update
+
+            
+2. Install the Docker packages.
+
+         sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  
+3. Verify that the Docker Engine installation is successful by running the hello-world image.
+
+          sudo docker run hello-world
+
+You have now successfully installed and started Docker Engine !
+
+Upon checking the docker context, you will find two docker engines: `default` and `desktop-linux` respectively.  
+
+![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/c9af6950-a8a2-4389-af99-c39449d608a3)
+
+
+The GUI application contains the same two builders, `ecrebuild` and `ecstart` must be executed with the same engine used by the GUI application otherwise your container will not be visible in the GUI application.
+
+In our case, we will using the newly-installed `desktop-linux` engine.
+
+- Make sure to add the path `/var/www/emptycup/emptycup3d` under the `Settings -> Resouces -> File Sharing`
+
+![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/66c86441-a7c4-4650-9e6c-6a7222b8d619)
+
+- Since the GUI application is launched with the normal user privileges, therefore change the ownership of the emptycup3d folder to the currently logged-in user:
+
+       sudo chown -R username:username /var/www/emptycup/emptycup3d
+
+![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/53363778-9135-4f37-af25-381b60b26386)
+
+- Time to build the empire.
+
+       ecrebuild
+
+- Start the containers
+  
+       ecstart
+
+![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/d287e1cc-eeb6-4888-a57e-8aa5ce599b5e)
+
+### [+] Deployment succeeded.
+
+- Check `localhost:3000/` to see the `emptycup3d_webapp` is working or not.
+- Confirm the installation by checking the bind mounts.
+
+![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/be07b512-07eb-4b54-8469-d8d515190e69)
+
+If you encounted logs like below, then manually create the `nonexistent` directory and restart the container.
+
+![image](https://github.com/quadrupl3d-ec/quadrupl3d-ec.github.io/assets/154422664/a143c148-b135-4cf1-9816-e3c680bce5f4)
+
+
