@@ -3,8 +3,8 @@ layout: default
 title: Week 1
 ---
 
-# December Week 1
-## Wednesday: December 20
+# **December Week 1**
+## **Wednesday: December 20**
 
 Connected with sir @Ab and received the credentials of the newly created gmail account.  
 Gmail - `quadrupl3d@gmail.com` 
@@ -60,7 +60,7 @@ Steps to perform a dual boot to install the bare metal:
 -----
 <br>
 
-## Friday: December 22
+## **Friday: December 22**
 
 Kali Linux is not much compatible for development environment. I've tried to access the docs at `http://localhost:9999` but there were missing development dependencies therefore switched to Ubuntu upon Ab's directives.  
 
