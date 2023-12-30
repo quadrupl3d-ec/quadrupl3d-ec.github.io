@@ -24,8 +24,7 @@ Therefore the `Jobmanager` is unable to spin up the cloud compute instance rende
 
 2. #### **How does the render works ?**
 
-`renders/` library of the core emptycup module
-I am currently analysing this library in detail, I have now reached to a basic understanding:
+**`renders/` library of the core emptycup module** (I am currently analysing this library in detail, I have now reached to a basic understanding)
 
 - `blender_utils` uses the Blender python API that allows us to script and automate various tasks within Blender such as create and manipulate 3D objects, set up scenes, apply materials, control animations, and perform various other operations.
 -  `blender` imports and uses `blender_utils`. For example, using blender_utils to call clear_scene() function before rendering the file present at request path (`requestp`). `blender` utilizes the command line arguments and requires the JSON file containing rendering parameters. These operations are executed in render workers which are Azure VMs.
