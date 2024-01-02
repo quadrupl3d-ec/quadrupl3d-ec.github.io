@@ -3,7 +3,7 @@ layout: default
 title: Week 1
 ---
 # **December Week 1**
-## **Friday: December 30**  
+## **Saturday: December 30**  
 
 ### **System Freeze fixed**  
 Upon setting the kernel parameter to `amdgpu.runpm=0` will keep the GPU on at all times and it won't go to sleep abruptly but this drains the battery life. Till date this is the only patch this issue has. So, I will implement a stable fix in future.  
