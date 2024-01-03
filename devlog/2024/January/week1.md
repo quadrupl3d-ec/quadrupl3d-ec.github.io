@@ -5,12 +5,18 @@ title: Week 1
 # **January Week 1**
 ## **Tuesday: January 2**  
 
-### **System Freeze fixed**  
-Upon setting the kernel parameter to `amdgpu.runpm=0` will keep the GPU on at all times and it won't go to sleep abruptly but this drains the battery life. Till date this is the only patch this issue has. So, I will implement a stable fix in future.  
+### **Making Renders work on development environment**  
+In production, render workers are cloud VMs but we can't use them in development as it will make the development environment complex and also it won't be feasible. So, first of all I have to understand the request flow.
 
-System works very smooth now. No hangs, no freezes and no modifications in the kernel version.
+#### Analysing the Request flow:
 
-### **Deciphering the render functionality**
-1. #### **`Try Preview` stuck at queued**
-Upon going through the docs/docs/renders.md, I get to know that core.py module is responsible for preparing RenderJob and posts it on the manager queue.  
+1. The request is made from the client side API to server side API, which is directly Targeting the `core.py`.
+2. core.py calls the `JobManager` from `jobs.py`, this called as `render-manager`, this manages the queues inside the redis in-memory database.
+3. Redis contains 3 queues `mq, sq, pq`. Any job associated with any queue must have a corresponding job id `mjid`. If there is no `mjid` for a job, then it will simply throw "no such jobs".
+4. `JobManager` posts the jobs to the queue in redis, this post methods does some checks and `enqueues` the job and commits to the db.
+5. Optimization lets the fresh job enter in the `pq` instead of the `sq`.
+6. A job in any queue ( `sq` or `pq` ) is fetched/picked by the corresponding render worker.
+7. Since, jobs in the queue can be added through the UI, theredore I need to setup render worker on my host machine.
 
+#### Setting up render worker on host machine for development
+1. 
