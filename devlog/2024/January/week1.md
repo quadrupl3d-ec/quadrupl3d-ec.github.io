@@ -51,3 +51,4 @@ Since I already have my docker container running and have the redis port opened,
 
 #### **Analysing `walkin.js`**
 At this point, I'm dealing with frontend component `3D page` of the web application. In the webapp docker container, my focus is on `lib/scenejs/walkin.js` and `Components.js`. I'm going to create a plugin called `ShiftPointer` that will be used to select and translate any furniture object in the 3D page within the canvas while the shift key is holded. This is a bit complex.
+So, the first step is to change the cursor to a `Arrows move image` while holding the shift key. This is done by downloading the png image from bootstrap icons, using it in a css class and manipulating the appropriate DOM element using JQ.
