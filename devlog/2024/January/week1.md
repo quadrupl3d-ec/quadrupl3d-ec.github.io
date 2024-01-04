@@ -40,7 +40,7 @@ Since I already have my docker container running and have the redis port opened,
 
 ## **Wednesday: January 3**
 
-#### Getting started with three.js
+#### **Getting started with three.js**
 1. Installing the latest versions of vite, node, npm.
 2. Initialising a `Basic scene` project and importing three.js using main.js
 3. Creating a scene, adding a cube geometry to the scene, adding material to the geometry. Then creating a mesh using geometry and material.
