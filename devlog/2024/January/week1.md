@@ -35,3 +35,10 @@ Since I already have my docker container running and have the redis port opened,
 - I added credits through the db and then requested the render in 1080p, so now what happens is, the render-request for a HD render is added to the redis queue.
 - This will commit to db that an HD render is requested by a particular user.
 - Now manually using the alias to invoke rqworker which fetches this render request from the redis-db.
+
+
+## **Tuesday: January 2**  
+
+#### Getting started with three.js
+
+#### Analysing `walkin.js` 
