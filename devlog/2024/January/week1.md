@@ -38,7 +38,7 @@ Since I already have my docker container running and have the redis port opened,
 
 <br>
 
-## **Wednesday: January 2**
+## **Wednesday: January 3**
 
 #### Getting started with three.js
 1. Installing the latest versions of vite, node, npm.
