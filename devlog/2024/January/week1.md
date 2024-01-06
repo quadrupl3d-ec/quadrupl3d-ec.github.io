@@ -5,6 +5,19 @@ title: Week 1
 # **January Week 1**
 
 
+## **Friday: January 5**
+
+#### **Adding the Axeshelper to any furnishing object**
+
+
+## **Thursday: January 4**
+
+#### **Creating a JavaScript class**
+Upon analysing how the `scenejs` works, I get to know that walkin.js calls the JavaScript classes from `Components.js`. In addition to this, there are many helper functions inside `walkin.js`. Now the goal is to interact with any furnishing object upon holding the shift key.
+
+#### **Creating the ShiftPointer**
+Naming the class as `3DPointerControls` will be too generic and therefore is not a good practice for naming conventions. Since this class should trigger on pressing and holding the shift key and then it vests in some power to the pointer to translate the objects using pointer, `ShiftPointer` should be the class name.
+
 ## **Wednesday: January 3**
 
 #### **Getting started with three.js**
