@@ -26,6 +26,12 @@ Upon analysing how the `scenejs` works, I get to know that walkin.js calls the J
 3. In order to replace the pointer with an `arrows-move` icon, it's good to create eventlisteners for `keydown` and `keyup` events.
 On Keypress,`handleKeyPress` will be called which will add an event listener `handleMouseMove` that listens for `mousemove` event only when the shift key is pressed.
 
+#### **Getting all the Furnishing Objects from the scene**
+1. There is a helper function in `walkin.js` that lets get all the mesh objects associated with the current scene.
+2. `getMeshes()` will set up a ray caster and casts a ray in the direction specified by the 2D coordinates of a `mouse` vector. Therefore, all I have to do is pass these coordinates to the getMeshes function and it returns all the meshes intersected by mouseover.
+3. Now that I have all the meshes intersected by the 2D mouse vector, I have to figure out how to calculate the furnishing object using this.
+4. Creating a `getFurnishingObjectFromMeshes(object)` function that will check if the parent of a mesh is an object 3D instance of three.js and has a `userData.isFurnishingObject` set to `true`. This function will simply push this object into the array of furnishing objects.
+
 #### **Adding a boundingBox**
 Now my next Target will be adding the bounding box to the hovered furnishing object. 
 
@@ -36,9 +42,9 @@ Now my next Target will be adding the bounding box to the hovered furnishing obj
 
 3. I don't know why, but I am not able to create a visualization of this BoundingBox Using the `Box3helper()` method. But after spending hours on it, my guess is that we're having three.js version conflict with class names.
 
-#### **Getting all the Furnishing Objects from the scene**
-1. There is a helper function in `walkin.js` that lets get all the mesh objects associated with the current scene.
+ 
 
+   
 ## **Wednesday: January 3**
 
 #### **Getting started with three.js**
