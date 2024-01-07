@@ -7,11 +7,20 @@ title: Week 1
 
 ## **Friday: January 5**
 
-#### **Adding the Axeshelper to any furnishing object**
+#### **Adding the Axeshelper to a furnishing object**
 1. Starting with the `axesHelper()` class of three.js, I faced the same issue I was facing with the `Box3Helper()`. It is conflicting with the version of theee.js used in our stack. The version we are using supports the old method `axisHelper()`.
 2. Now I am able to add the axes of any length to the furnishing object. And this is done by copying this axisHelper to the centre of the furnishing object using the BoundingBox vector.
-3. 
+3. But on adding this axis helper, it is just rendered after the mouse is moved. This means that the frames are not rendered continuously, therefore I have to render the frame by triggering the sceneChanged.
+4. Now, another issue that I'm facing is each time on mouse over on the furnishing object, a new axesHelper constructor is created as I was creating this constructor inside the `addAxesHelper(object)` function, which was called on every mouseover event. Simply moving this constructor out of the function solves the issue.
 
+#### **Hovering on any furnishing object**
+I have created an array that will contain the `uuid` of any hovered furnishing object on `shift key press` and this array will be initialized to an empty array [] as soon as the key is released, followed by detaching the mousemove event listener.
+
+#### **Adding the axesHelper to any number of furnishing objects, one at a time**
+Now that I have an array that contains the object with a unique `uuid` of any hovered object. I can add the axesHelper to the center of this object upon hovering onto it. And that empty array makes sure that the axes helper is not added again and again to the same furnishing object.
+
+#### **Detaching the axesHelper upon keyup or hover onto another furnishing object**
+We are not disposing the axesHelper upon keyrelease, we're `detaching` it from the scene. Meaning that the constructor still lives and will attach itself to any hovered furnishing object. And on hovering onto any other furnishing object present within the scene, the axesHelper attaches to the newly hovered furnishing object. The idea is simple, "we can't have two objects in the `hoveredFurnishingObject()` array.
 
 ## **Thursday: January 4**
 
