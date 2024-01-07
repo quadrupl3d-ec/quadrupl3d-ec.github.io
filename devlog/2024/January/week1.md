@@ -8,6 +8,9 @@ title: Week 1
 ## **Friday: January 5**
 
 #### **Adding the Axeshelper to any furnishing object**
+1. Starting with the `axesHelper()` class of three.js, I faced the same issue I was facing with the `Box3Helper()`. It is conflicting with the version of theee.js used in our stack. The version we are using supports the old method `axisHelper()`.
+2. Now I am able to add the axes of any length to the furnishing object. And this is done by copying this axisHelper to the centre of the furnishing object using the BoundingBox vector.
+3. 
 
 
 ## **Thursday: January 4**
@@ -16,7 +19,25 @@ title: Week 1
 Upon analysing how the `scenejs` works, I get to know that walkin.js calls the JavaScript classes from `Components.js`. In addition to this, there are many helper functions inside `walkin.js`. Now the goal is to interact with any furnishing object upon holding the shift key.
 
 #### **Creating the ShiftPointer**
-Naming the class as `3DPointerControls` will be too generic and therefore is not a good practice for naming conventions. Since this class should trigger on pressing and holding the shift key and then it vests in some power to the pointer to translate the objects using pointer, `ShiftPointer` should be the class name.
+1. Naming the class as `3DPointerControls` will be too generic and therefore is not a good practice for naming conventions. Since this class should trigger on pressing and holding the shift key and then it vests in some power to the pointer to translate the objects using pointer, `ShiftPointer` should be the class name.
+
+2. I need to have two state variables, one for tracking if the class is enabled or disabled and one for tracking the press of shift key. To get started, let's always keep this class enabled.
+
+3. In order to replace the pointer with an `arrows-move` icon, it's good to create eventlisteners for `keydown` and `keyup` events.
+On Keypress,`handleKeyPress` will be called which will add an event listener `handleMouseMove` that listens for `mousemove` event only when the shift key is pressed.
+
+#### **Adding a boundingBox**
+Now my next Target will be adding the bounding box to the hovered furnishing object. 
+
+1. Creating a bounding box using the `Box3()` three.js class. What this does is, it can calculate the center of the object using the `setFromObject(object)` method. This constructor will return the bounding planes encompassing the object in form of two vectors:
+`min {}` and `max {}` 
+
+2. I can get the co-ordinates of the bounding box by `boundingBox / 2`, Since the position of the object is already `{ x:0, y:0, z:0 }`
+
+3. I don't know why, but I am not able to create a visualization of this BoundingBox Using the `Box3helper()` method. But after spending hours on it, my guess is that we're having three.js version conflict with class names.
+
+#### **Getting all the Furnishing Objects from the scene**
+1. There is a helper function in `walkin.js` that lets get all the mesh objects associated with the current scene.
 
 ## **Wednesday: January 3**
 
