@@ -11,6 +11,7 @@ title: Week 2
 - Since I want to translate the object between two consecutive clicks on any axis, I should add and remove classes to canvas.
 - If I click on any point on any axis, I want the co-ordinates of that point so that I can do `object.positon.set(x, y, z)` to update the position of object to that point.
 - I need to get the shortest distance between the mouse's 3D coordinates and the axes. Translation should be done along an axis which is closest to the mouse. Shortest distance is the perpendicular distance.
+- I am struggling in creating a raycaster through pointer as the `setFromCamera(mouse3D, camera)` doesn't work in the three.js version we are using.
 
 ## **Monday: January 8**
 #### Code refactoring with sir
