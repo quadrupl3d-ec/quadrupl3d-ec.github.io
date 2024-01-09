@@ -9,6 +9,7 @@ title: Week 2
 - Trying to add the `click` event listener on the hovered furnishing. Therfore, this event listener can't be added normally, it has to be added conditionally.
 - How do I translate my object ? What should be the optimal strategy ?
 - Since I want to translate the object between two consecutive clicks on any axis, I should add and remove classes to canvas.
+- If I click on any point on any axis, I want the co-ordinates of that point so that I can do `object.positon.set(x, y, z)` to update the position of object to that point.
 
 ## **Monday: January 8**
 #### Code refactoring with sir
