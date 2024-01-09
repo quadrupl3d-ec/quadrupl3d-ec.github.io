@@ -3,6 +3,9 @@ layout: default
 title: Week 2
 ---
 # **January Week 2**
+## **Tuesday: January 9**
+- Reaching to a conclusion that I don't need to add the axes to scene on every call for `attachAxes()`.
+- The axes should be only added to the scene once and hovering should just toggle the position and visibility.
 
 ## **Monday: January 8**
 #### Code refactoring with sir
@@ -26,5 +29,4 @@ Therefore, if `data.scene` doesn't contain the furnishings, and only contain the
 
 
 
-## **Tuesday: January 9**
-- Reaching to a conclusion that I don't need to add the axes to scene on every call for `attachAxes()`.
+
