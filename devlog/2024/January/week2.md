@@ -6,6 +6,7 @@ title: Week 2
 ## **Tuesday: January 9**
 - Reaching to a conclusion that I don't need to add the axes to scene on every call for `attachAxes()`.
 - The axes should be only added to the scene once and hovering should just toggle the position and visibility.
+- Trying to add the `click` event listener on the hovered furnishing. Therfore, this event listener can't be added normally, it has to be added conditionally.
 
 ## **Monday: January 8**
 #### Code refactoring with sir
