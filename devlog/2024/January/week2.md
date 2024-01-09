@@ -14,6 +14,7 @@ title: Week 2
 - I am struggling in creating a raycaster through pointer as the `setFromCamera(mouse3D, camera)` doesn't work in the three.js version we are using.
 - I have decided to use the existing `_getMeshAt(x,y)` function to intersect the planes.
 - I am adding the XY, YZ, ZX planes to my `axes` object, so that I can intersect them using the `getMeshAt(x,y)` function and then I will calculate the projections.
+- Now able to intersect the plane and get the point at which the ray intersects it.
 
 ## **Monday: January 8**
 #### Code refactoring with sir
