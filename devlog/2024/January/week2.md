@@ -8,6 +8,7 @@ title: Week 2
 - The axes should be only added to the scene once and hovering should just toggle the position and visibility.
 - Trying to add the `click` event listener on the hovered furnishing. Therfore, this event listener can't be added normally, it has to be added conditionally.
 - How do I translate my object ? What should be the optimal strategy ?
+- Since I want to translate the object between two consecutive clicks on any axis, I should add and remove classes to canvas.
 
 ## **Monday: January 8**
 #### Code refactoring with sir
