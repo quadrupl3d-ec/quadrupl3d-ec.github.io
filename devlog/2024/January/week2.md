@@ -24,7 +24,7 @@ title: Week 2
 For example, in browser's dev tools, I can add breakpoints to specific lines of code and control the execution before and after that.
 So we analysed that the furnishings were not loaded completely when the function is called.
 
-4. Therefore, it's most likely that the issue persists in the listener where
+4. Therefore, it's most likely that the issue persists in the listener.
 Therefore, if `data.scene` doesn't contain the furnishings, and only contain the room and lightings then my functions won't be able to extract the furnishings from the scene.
 
 
