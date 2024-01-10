@@ -7,7 +7,7 @@ title: Week 2
 - How can I ensure that my scene tree contains all the furnshings/objects/groups because then only I'll be able to do more robust filtering of the axesgroup object and not just picking the last child of the scene ?
 - I don't need to filter axesgroup at all, I already have that in a global variable `axes`. xoxo
 - I should check if the intersection works even if the planes are invisible.
-- Seems like if I intersect only one plane then the axis perpendicular to that plane becomes z axis by default, otherwise, if I intersect 2 or 3 planes then:
+- If I intersect planes then:
 
       right: +x axis,
       up: +y axis,
