@@ -3,6 +3,27 @@ layout: default
 title: Week 2
 ---
 # **January Week 2**
+## **Wednesday: January 10**
+- How can I ensure that my scene tree contains all the furnshings/objects/groups because then only I'll be able to do more robust filtering of the axesgroup object and not just picking the last child of the scene ?
+- I don't need to filter axesgroup at all, I already have that in a global variable `axes`. xoxo
+- I should check if the intersection works even if the planes are invisible.
+- Seems like if I intersect only one plane then the axis perpendicular to that plane becomes z axis by default, otherwise, if I intersect 2 or 3 planes then:
+
+      right: +x axis,
+      up: +y axis,
+      out of screen: +z axis
+- If I cast a ray, it will cut minimum 1 plane and maximum 3 planes. I have to calculate the minimum distance between the casted ray and 
+each of the x, y and z axis.
+- Now I have two mathematical approaches to calculate the min./perpendicular distance between the casted ray and any axis:
+   1. Drawing a plane perpendicular to the casted ray which contains the axis from which min. distance is to be calculated.
+   2. Find the equation of casted ray and find distance between the axis and the casted ray.
+ 
+- Adding the relative coordinates into an array `relCo`. Because if I have relative coordinates of the intersection points, then it will be much easier to find the perpendicular distance since my origin is now (0,0,0) which is the object's center
+                            OR
+Can I directly compute the distance ?
+
+
+
 ## **Tuesday: January 9**
 - Reaching to a conclusion that I don't need to add the axes to scene on every call for `attachAxes()`.
 - The axes should be only added to the scene once and hovering should just toggle the position and visibility.
