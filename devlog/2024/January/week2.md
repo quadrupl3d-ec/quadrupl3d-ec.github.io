@@ -22,6 +22,7 @@ each of the x, y and z axis.
                             OR
 Can I directly compute the distance ?
 
+- If my ray intersects only one plane, then I can get the minimum distance of the casted ray from the axes directly from intersected coordinates.
 
 
 ## **Tuesday: January 9**
