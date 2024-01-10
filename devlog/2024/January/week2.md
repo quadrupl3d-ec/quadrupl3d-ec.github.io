@@ -26,6 +26,7 @@ Can I directly compute the distance ?
 - Irrespective of number of planes my ray intersects, I have to find the minimum distance between the ray and axes.
 - Why am I getting strange results upon implementation ? It's most probably a mistake in the direction of casted ray `mouse3D`.
 - No it was `clientX` that doesn't works with walkin.js, drained my energy off and 2 hours.
+- Now that I have the axis along which I have to perform translation, `onClick`, my furnishing should finally be set for translation and it's position should be changed to the positon of cursor along the axis.
 
 
 ## **Tuesday: January 9**
