@@ -25,6 +25,7 @@ Can I directly compute the distance ?
 - If my ray intersects only one plane, then I can get the minimum distance of the casted ray from the axes directly from intersected coordinates. And this is false.
 - Irrespective of number of planes my ray intersects, I have to find the minimum distance between the ray and axes.
 - Why am I getting strange results upon implementation ? It's most probably a mistake in the direction of casted ray `mouse3D`.
+- No it was `clientX` that doesn't works with walkin.js, drained my energy off and 2 hours.
 
 
 ## **Tuesday: January 9**
