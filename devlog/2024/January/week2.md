@@ -7,6 +7,8 @@ title: Week 2
 - If I Check any of `dx, dy, dz` individually, they all work perfectly fine. This means the `a1a2` vector seems interfering with something because all of `dx, dy, dz` use the same `a1a2` vector, maybe I can have different `a1a2` vector for each of `dx`,`dy`,`dz` ?
 - No that wasn't the case, it was an issue in the way `cross()` works, `crossVectors()` is giving accurate results. So, now I finally have the precise values of `dx, dy, dz` no matter where my mouse intersects the plane.
 - Now I have to refactor my code a little bit, since for next step, clarity of thought will be highly effective.
+- How to find Q ? Because I have to move my FO at Q utlimately.
+- I found a way to get the co-ordinates of point Q `( a point on the axis at which my object should be moved )`, but I'm trying to validate it if it's correct.
 
 ## **Wednesday: January 10**
 - How can I ensure that my scene tree contains all the furnshings/objects/groups because then only I'll be able to do more robust filtering of the axesgroup object and not just picking the last child of the scene ?
