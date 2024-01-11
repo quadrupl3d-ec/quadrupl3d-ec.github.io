@@ -9,6 +9,12 @@ title: Week 2
 - Now I have to refactor my code a little bit, since for next step, clarity of thought will be highly effective.
 - How to find Q ? Because I have to move my FO at Q utlimately.
 - I found a way to get the co-ordinates of point Q `( a point on the axis at which my object should be moved )`, but I'm trying to validate it if it's correct.
+- I think I am right and I have set up event listeners to get fired at the right time. Now it's time to conenct all the dots and do
+`object.position.set(new position)`
+- I am able to change the position attribute of the object but why my object is still not displaced to the new location ?
+- I am doing `trigger('sceneChanged')` after changing the position but still can't see my object moving :(
+- Finally able to see that holy movement of the furnishing object, it moves now as expected.
+- Many loose ends are there which I will fix tomorrow.
 
 ## **Wednesday: January 10**
 - How can I ensure that my scene tree contains all the furnshings/objects/groups because then only I'll be able to do more robust filtering of the axesgroup object and not just picking the last child of the scene ?
