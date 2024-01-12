@@ -10,6 +10,7 @@ title: Week 2
 - Since I'm working in relative frames, I have to shift the origin to incorporate the co-ordinates of `Furnishing Object`. Now it is working smooth.
 - Next, I have to change the position of the `FO` to its initial position if I release the shift key without clicking again. (`since, clicking again should fix the position of the FO`).
 - If in 3D Page, the user tries to press a combination of keys like `CTRL + SHIFT + I` or `SHIFT + any_other_key`, then my shift pointer should not be invoked.
+- Code cleaning and refactoring.
 
 ## **Thursday: January 11**
 - If I Check any of `dx, dy, dz` individually, they all work perfectly fine. This means the `a1a2` vector seems interfering with something because all of `dx, dy, dz` use the same `a1a2` vector, maybe I can have different `a1a2` vector for each of `dx`,`dy`,`dz` ?
