@@ -3,6 +3,9 @@ layout: default
 title: Week 2
 ---
 # **January Week 2**
+## **Friday: January 12**
+
+
 ## **Thursday: January 11**
 - If I Check any of `dx, dy, dz` individually, they all work perfectly fine. This means the `a1a2` vector seems interfering with something because all of `dx, dy, dz` use the same `a1a2` vector, maybe I can have different `a1a2` vector for each of `dx`,`dy`,`dz` ?
 - No that wasn't the case, it was an issue in the way `cross()` works, `crossVectors()` is giving accurate results. So, now I finally have the precise values of `dx, dy, dz` no matter where my mouse intersects the plane.
