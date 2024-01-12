@@ -3,7 +3,10 @@ layout: default
 title: Week 2
 ---
 # **January Week 2**
+
 ## **Friday: January 12**
+- Code cleanup and commit.
+- Why my furnishing is already at a offset ? And from that point the translation works fine.
 
 
 ## **Thursday: January 11**
