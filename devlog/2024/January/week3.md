@@ -18,6 +18,7 @@ This is happening because of the expired `CLIENT_KEY`.
 - On syncing the fork, pulling the latest master, why this issue persists ?
 - Learning about OOPs concepts in JavaScript
 - How the woodworks module works in overall ?
+- Identifying the glitches in the woorworks 3D page.
 
 ## **Monday: January 15**
 - Code refactoring. Keeping in mind the fundamental software development practices and the notion of `python zen`.
