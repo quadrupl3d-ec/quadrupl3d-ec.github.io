@@ -16,6 +16,8 @@ Is this same code works in other system ?
 `/projects/<pid>/layouts/<lid>`<br>
 This is happening because of the expired `CLIENT_KEY`.
 - On syncing the fork, pulling the latest master, why this issue persists ?
+- Learning about OOPs concepts in JavaScript
+- How the woodworks module works in overall ?
 
 ## **Monday: January 15**
 - Code refactoring. Keeping in mind the fundamental software development practices and the notion of `python zen`.
