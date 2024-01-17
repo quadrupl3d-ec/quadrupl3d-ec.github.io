@@ -9,7 +9,8 @@ title: Week 3
 - While wandering in `woodworkjs/woodwork.js`, some classes are using `static methods`, therefore I practiced some examples on `static methods in JS classes`.
 - How `lib/woodworksjs` works ?
 - Found a glitch in the woodworks customisation page, the door icon is not hided with other icons. Created a new branch and started debugging.
-- When the woodwork loads, `modular-container` is created using the `modulasjs` and when a user tries to scale a woodwork, `hideDoor()` was not called on that event trigger, instead `hideDelete()` was being called twice. So, calling `hideDoor()` fixes the issue. 
+- When the woodwork loads, `modular-container` is created using the `modulasjs` and when a user tries to scale a woodwork, `hideDoor()` was not called on that event trigger, instead `hideDelete()` was being called twice. So, calling `hideDoor()` fixes the issue.
+- I want to figure out how the blue line moves onMousemove as it shows glitches in making partitions in the modular-ui
 
 ## **Tuesday: January 16**
 - Final polishes in the `shift-pointer` plugin.
