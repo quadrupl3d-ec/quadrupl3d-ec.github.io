@@ -13,6 +13,7 @@ title: Week 3
 - I want to figure out how the blue line moves onMousemove as it shows glitches in making partitions in the modular-ui.
 - What happens when I click the pencil ? How the 3 icons show up on mousehover ?
 - Why all the sections except cupboard extend the SectionRenderer class. Why is that ?
+- How to make partitioning possible for open sections ?
 
 ## **Tuesday: January 16**
 - Final polishes in the `shift-pointer` plugin.
