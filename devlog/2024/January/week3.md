@@ -7,6 +7,8 @@ title: Week 3
 - Exploring the woorworks UI to look for potential glitches.
 - Getting familiar with the woodoworks module in the codebase.
 - While wandering in `woodworkjs/woodwork.js`, some classes are using `static methods`, therefore I practiced some examples on `static methods in JS classes`.
+- How `lib/woodworksjs` works ? 
+
 
 ## **Tuesday: January 16**
 - Final polishes in the `shift-pointer` plugin.
