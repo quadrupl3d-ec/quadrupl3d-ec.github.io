@@ -3,6 +3,9 @@ layout: default
 title: Week 3
 ---
 # **January Week 3**
+## **Wednesday: January 17**
+- Exploring the woorworks UI to look for potential glitches.
+- Getting familiar with the woodoworks module in the codebase.
 
 ## **Tuesday: January 16**
 - Final polishes in the `shift-pointer` plugin.
