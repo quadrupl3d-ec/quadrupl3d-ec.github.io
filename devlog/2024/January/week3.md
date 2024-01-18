@@ -3,6 +3,12 @@ layout: default
 title: Week 3
 ---
 # **January Week 3**
+## **Thursday: January 18**
+- How the `onMousemove()` of `SectionRenderer()` is affected upon scaling ?
+- How scaling affects the section type ?
+- How scaling works ?
+- Section in inside the box.
+
 ## **Wednesday: January 17**
 - Exploring the woorworks UI to look for potential glitches.
 - Getting familiar with the woodoworks module in the codebase.
