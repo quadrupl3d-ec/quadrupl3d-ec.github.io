@@ -5,11 +5,11 @@ title: Week 3
 # **January Week 3**
 ## **Thursday: January 18**
 - How the `onMousemove()` of `SectionRenderer()` is affected upon scaling ?
-- Fixed: Settings and split icon becomes invisible upon scaling any woodwork.
+- **Fixed**: Settings and split icon becomes invisible upon scaling any woodwork.
 - How scaling affects the section type ?
 - How scaling works ?
 - When scaling is complete, event `onStop` is completed. Then the section type of is automatically set to `cupboard`. This means, `onStop` is the dead end, but how does `setSize()` calls `_box.reset()` ? 
-- Fixed: Upon scaling any woodwork, the `section type` is automatically set to `cupboard`.
+- **Fixed**: Upon scaling any woodwork, the `section type` is automatically set to `cupboard`.
 - Incorporating a `properly channelized way of addressing issues and following the protocol in which OOP works`. Updated the `setSize()` method and no more accessing the private variables. Updated the pr. 
 
 ## **Wednesday: January 17**
