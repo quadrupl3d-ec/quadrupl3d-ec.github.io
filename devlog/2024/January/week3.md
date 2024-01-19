@@ -8,6 +8,7 @@ title: Week 3
 - Found 2 new glitches in modular-ui.
 - Identified 3 more bugs in modular-ui.
 - Why on changing the section from cupboard to any other section, the `split` icon persists ?
+- **Fixed**: `hideSplit()` on changing the section from cupboard
 
 ## **Thursday: January 18**
 - How the `onMousemove()` of `SectionRenderer()` is affected upon scaling ?
