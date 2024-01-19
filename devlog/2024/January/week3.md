@@ -11,7 +11,7 @@ title: Week 3
 - **Fixed**: `hideSplit()` on changing the section from cupboard
 - Why am I only getting the error when scaling a cupboard ?
 - How the `mousemove` of sectionRenderer is related to `move` ?
-- Inside `ComponentRendere`, `showControls()` are responsible for showing the controls and `hideControls()` for hiding them, 
+- Inside `ComponentRenderer` class, `showControls()` are responsible for showing the controls and `hideControls()` for hiding them, 
 These functions are called when `onMousemove` and `onMouseout` are triggered. 
 But once a wardrobe is moved, these functions are no more triggered upon moving the mouse, why is that ?
 
