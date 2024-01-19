@@ -9,6 +9,7 @@ title: Week 3
 - Identified 3 more bugs in modular-ui.
 - Why on changing the section from cupboard to any other section, the `split` icon persists ?
 - **Fixed**: `hideSplit()` on changing the section from cupboard
+- Why am I only getting the error when scaling a cupboard ?
 
 ## **Thursday: January 18**
 - How the `onMousemove()` of `SectionRenderer()` is affected upon scaling ?
