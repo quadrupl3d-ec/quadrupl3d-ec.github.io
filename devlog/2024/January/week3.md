@@ -17,6 +17,7 @@ But once a wardrobe is moved, `hideControls()` is not called even it is triggere
 - I found it, `onMouseout()` inside `ComponentRenderer` is not triggered after moving the object. Why it is not triggered ?
 - `this._pickAndDrop.moving` is always set to true once the wardrobe is moved.
 - **Fixed**: After moving a wardrobe, mouseOut doesn't work.
+- `getSection(level, left, bottom)` only returns the `external` sections, it doesn't return internal sections, why is that ?
 
 ## **Thursday: January 18**
 - How the `onMousemove()` of `SectionRenderer()` is affected upon scaling ?
