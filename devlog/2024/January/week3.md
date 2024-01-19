@@ -14,6 +14,7 @@ title: Week 3
 - Inside `ComponentRenderer` class, `showControls()` are responsible for showing the controls and `hideControls()` for hiding them, 
 These functions are called when `onMousemove` and `onMouseout` are triggered. 
 But once a wardrobe is moved, `hideControls()` is not called even it is triggered `onMouseOut`, why is that ?
+- I found it, `onMouseout()` is not triggered after moving the object.
 
 ## **Thursday: January 18**
 - How the `onMousemove()` of `SectionRenderer()` is affected upon scaling ?
