@@ -3,6 +3,10 @@ layout: default
 title: Week 3
 ---
 # **January Week 3**
+## **Friday: January 19**
+- Updated the `toggleEditor` to hide the settings and split icon upon clicking edit. Commit done.
+- Found 2 new glitches in modular-ui. 
+
 ## **Thursday: January 18**
 - How the `onMousemove()` of `SectionRenderer()` is affected upon scaling ?
 - **Fixed**: Settings and split icon becomes invisible upon scaling any woodwork.
