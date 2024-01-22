@@ -9,4 +9,5 @@ title: Week 4
 - Developing a broad picture about how to fix the issues in upcoming days.
    - Enable Esc to reset view.
    - Remove horizontal strip option in DoorPattern.
-   - 
+   - Clear doorPattern strip on changing to glass doors ()
+   - How to remove the `Horizontal strip` from `Door pattern` option in menu.
