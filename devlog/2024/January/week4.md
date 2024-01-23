@@ -17,6 +17,7 @@ title: Week 4
 - **+1**   I am now able to reset the camera when the `mode == 'firstperson'`. Thinking how the same reset camera functionality can be implemented for `mode == orbit`.
 - **40 minutes** Still stuck on "Why the value of variable `initialO` is being overridden with the current position of camera in orbit view ?
 What is the other way of resetting the camera if not using `camera.position.set()` ?"
+- **0.5** Trying to fix issue number **75**: Error while changing the Door Type to 'Pooja'
 
 ## **Monday: January 22**
 - Learned how to think and how debugging works, how to use the browser's debugger. How to narrow down the scope of bug to hunt it in minimum possible time.
