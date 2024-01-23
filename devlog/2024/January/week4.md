@@ -15,6 +15,8 @@ title: Week 4
 - **+1** For orbit camera, the globle variable `initialPos` is updated to the current position of the camera but it works fine for firstPerson camera. I need to rethink the logic.
 - **0.5**  Made the right strategy to reset the camera and not just change the position of it.
 - **+1**   I am now able to reset the camera when the `mode == 'firstperson'`. Thinking how the same reset camera functionality can be implemented for `mode == orbit`.
+- **40 minutes** Still stuck on "Why the value of variable `initialO` is being overridden with the current position of camera in orbit view ?
+What is the other way of resetting the camera if not using `camera.position.set()` ?"
 
 ## **Monday: January 22**
 - Learned how to think and how debugging works, how to use the browser's debugger. How to narrow down the scope of bug to hunt it in minimum possible time.
