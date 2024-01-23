@@ -8,6 +8,7 @@ title: Week 4
 - Working on **#61** Invalid state on setting mirror and then setting full glass for door.
 - Still thinking about the logic to fix the invalid state.
 - Fixed **#61**. Commit done. Updated the pr.
+- Spent some time on fixing 60 but then got instruction to mark it as **triage** and **51** is blocked till we receive a confirmation from the designers team.
 
 ## **Monday: January 22**
 - Learned how to think and how debugging works, how to use the browser's debugger. How to narrow down the scope of bug to hunt it in minimum possible time.
