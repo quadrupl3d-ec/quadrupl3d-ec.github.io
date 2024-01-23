@@ -6,6 +6,7 @@ title: Week 4
 ## **Tuesday: January 23**
 - Going through the suggestions on different open threads (issues).
 - Working on **#61** Invalid state on setting mirror and then setting full glass for door.
+- Still thinking about the logic to fix the invalid state.
 
 ## **Monday: January 22**
 - Learned how to think and how debugging works, how to use the browser's debugger. How to narrow down the scope of bug to hunt it in minimum possible time.
