@@ -12,6 +12,7 @@ title: Week 4
 - started working on **#66** Enable Esc to reset view.
 - **+1.5** Created a Javascript class `EscapeReset()` that is enabled it in `walkin.js` as a plugin component. I got the camera position using the camera object, but should I get it using the `scene tree` ?
 - **+1** I am able to set the camera position to the initial position but I have to figure out how to incorporate the rotations about the `Pitch` and `Yaw` axes.
+- **+1** For orbit camera, the globle variable `initialPos` is updated to the current position of the camera but it works fine for firstPerson camera. I need to rethink the logic.
 
 ## **Monday: January 22**
 - Learned how to think and how debugging works, how to use the browser's debugger. How to narrow down the scope of bug to hunt it in minimum possible time.
