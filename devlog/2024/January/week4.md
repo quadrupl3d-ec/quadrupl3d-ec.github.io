@@ -7,6 +7,7 @@ title: Week 4
 - **0**    Continuing the thread `Enable Esc to reset view #66`
 - **+1**   **Fixed: #66**. Commit done. Pushed. Now changing the way in which the key is listening.
 - **+1**   I have exposed `this.resetCamera = function(config) {}` in `scenejs/Walkin.js` <br>and in `js/Walkin.js`, `_setupScene(layout, container)` returns an object created using Scene class. So the method `resetCamera()` can be called on this object. But how to add the eventListener ?
+- The pr for implementing shortcuts is still pending so moving onto the next issue.
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
