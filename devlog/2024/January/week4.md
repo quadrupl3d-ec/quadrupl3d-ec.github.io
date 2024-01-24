@@ -5,7 +5,7 @@ title: Week 4
 # **January Week 4**
 ## **Wednesday: January 24**
 - **0**    Continuing the thread `Enable Esc to reset view #66`
-- **+1**   **Fixed: #66**. Commit done. Pushed. Now changing the way in which the key is listening.
+- **+1**   **Fixed: #66**. Commit done. Pushed. Now changing the way in which the key is listening. (#66)
 - **+1**   I have exposed `this.resetCamera = function(config) {}` in `scenejs/Walkin.js` <br>and in `js/Walkin.js`, `_setupScene(layout, container)` returns an object created using Scene class. So the method `resetCamera()` can be called on this object. But how to add the eventListener ?
 - The pr for implementing shortcuts is still pending so moving onto the next issue.
 - **0.5**   Worked on issue number **57**.
@@ -14,6 +14,7 @@ title: Week 4
 - 3:00  PM: Cleared some confisions about `how two meshes can have the same texture on clicking it.`
 - 4:00  PM: Able to set event listeners and change the texture of the first mesh from the list of brush's intersection array.
 - 5:00  PM: Still thinking about how to filter the mesh that is double clicked.
+- 6:00  PM: **Fixed #56**. Commit done. Pushed. Submitted PR for (#56)
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
