@@ -4,11 +4,11 @@ title: Week 4
 ---
 # **January Week 4**
 ## **Wednesday: January 24**
-- **0**    Continuing the thread `Enable Esc to reset view #66`
-- **+1**   **Fixed: #66**. Commit done. Pushed. Now changing the way in which the key is listening. (#66)
-- **+1**   I have exposed `this.resetCamera = function(config) {}` in `scenejs/Walkin.js` <br>and in `js/Walkin.js`, `_setupScene(layout, container)` returns an object created using Scene class. So the method `resetCamera()` can be called on this object. But how to add the eventListener ?
+- 9:00  AM:   Continuing the thread `Enable Esc to reset view #66` 
+- 10:00 AM:  **Fixed: #66**. Commit done. Pushed. Now changing the way in which the key is listening. (#66)
+- 11:30 AM:   I have exposed `this.resetCamera = function(config) {}` in `scenejs/Walkin.js` <br>and in `js/Walkin.js`, `_setupScene(layout, container)` returns an object created using Scene class. So the method `resetCamera()` can be called on this object. But how to add the eventListener ? (#66)
 - The pr for implementing shortcuts is still pending so moving onto the next issue.
-- **0.5**   Worked on issue number **57**.
+- 12:00 AM:   Worked on issue number **57**.
 - 12:30 PM: Starting to understand the issue `Implement individual mesh material application.` (#56)
 - 1:30  PM: Understood the issue clearly and how the implementation differs from the default application. (#56)
 - 3:00  PM: Cleared some confisions about `how two meshes can have the same texture on clicking it.`
@@ -17,7 +17,7 @@ title: Week 4
 - 6:00  PM: **Fixed #56**. Commit done. Pushed. Submitted PR for (#56)
 - 7:00  PM: Displaying the UV scale of each material in the material reel. (#57)
 - 8:00  PM: Displaying a horizontal range slider on the material reel panel. (#57)
-- 9:00  PM: Not able to change the color of slider and Realising that the range slider should not be on the material's reel panel, it must be in the preveiw pane.
+- 9:00  PM: Not able to change the color of slider and Realising that the range slider should not be on the material's reel panel, it must be in the preveiw pane. (#57)
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
