@@ -8,6 +8,7 @@ title: Week 4
 - **+1**   **Fixed: #66**. Commit done. Pushed. Now changing the way in which the key is listening.
 - **+1**   I have exposed `this.resetCamera = function(config) {}` in `scenejs/Walkin.js` <br>and in `js/Walkin.js`, `_setupScene(layout, container)` returns an object created using Scene class. So the method `resetCamera()` can be called on this object. But how to add the eventListener ?
 - The pr for implementing shortcuts is still pending so moving onto the next issue.
+- **0.5**   Worked on issue number **57**.
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
