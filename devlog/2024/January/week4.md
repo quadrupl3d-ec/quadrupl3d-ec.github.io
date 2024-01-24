@@ -4,7 +4,8 @@ title: Week 4
 ---
 # **January Week 4**
 ## **Wednesday: January 24**
-- **0**   Continuing the thread `Enable Esc to reset view #66`
+- **0**    Continuing the thread `Enable Esc to reset view #66`
+- **+1**   **Fixed: #66**. Commit done. Pushed. Now changing the way in which the key is listening.   
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
