@@ -16,6 +16,8 @@ title: Week 4
 - 5:00  PM: Still thinking about how to filter the mesh that is double clicked.
 - 6:00  PM: **Fixed #56**. Commit done. Pushed. Submitted PR for (#56)
 - 7:00  PM: Displaying the UV scale of each material in the material reel. (#57)
+- 8:00  PM: Displaying a horizontal range slider on the material reel panel. (#57)
+- 9:00  PM: Not able to change the color of slider and Realising that the range slider should not be on the material's reel panel, it must be in the preveiw pane.
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
