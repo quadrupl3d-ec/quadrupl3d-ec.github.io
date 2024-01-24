@@ -9,6 +9,7 @@ title: Week 4
 - **+1**   I have exposed `this.resetCamera = function(config) {}` in `scenejs/Walkin.js` <br>and in `js/Walkin.js`, `_setupScene(layout, container)` returns an object created using Scene class. So the method `resetCamera()` can be called on this object. But how to add the eventListener ?
 - The pr for implementing shortcuts is still pending so moving onto the next issue.
 - **0.5**   Worked on issue number **57**.
+- 12:30 PM: Starting to understand the issue `Implement individual mesh material application.` (#56)
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
