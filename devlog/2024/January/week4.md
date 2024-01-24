@@ -15,6 +15,7 @@ title: Week 4
 - 4:00  PM: Able to set event listeners and change the texture of the first mesh from the list of brush's intersection array.
 - 5:00  PM: Still thinking about how to filter the mesh that is double clicked.
 - 6:00  PM: **Fixed #56**. Commit done. Pushed. Submitted PR for (#56)
+- 7:00  PM: Displaying the UV scale of each material in the material reel. (#57)
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
