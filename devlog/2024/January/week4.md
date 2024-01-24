@@ -10,6 +10,7 @@ title: Week 4
 - The pr for implementing shortcuts is still pending so moving onto the next issue.
 - **0.5**   Worked on issue number **57**.
 - 12:30 PM: Starting to understand the issue `Implement individual mesh material application.` (#56)
+- 1:30  PM: Understood the issue clearly and how the implementation differs from the default application. (#56)
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
