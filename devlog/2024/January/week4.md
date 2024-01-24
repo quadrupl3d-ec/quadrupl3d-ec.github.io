@@ -12,6 +12,8 @@ title: Week 4
 - 12:30 PM: Starting to understand the issue `Implement individual mesh material application.` (#56)
 - 1:30  PM: Understood the issue clearly and how the implementation differs from the default application. (#56)
 - 3:00  PM: Cleared some confisions about `how two meshes can have the same texture on clicking it.`
+- 4:00  PM: Able to set event listeners and change the texture of the first mesh from the list of brush's intersection array.
+- 5:00  PM: Still thinking about how to filter the mesh that is double clicked.
 
 ## **Tuesday: January 23**
 **Total Hours worked = 9.67**
