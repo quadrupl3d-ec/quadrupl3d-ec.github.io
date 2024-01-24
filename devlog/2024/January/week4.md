@@ -3,7 +3,11 @@ layout: default
 title: Week 4
 ---
 # **January Week 4**
+## **Wednesday: January 24**
+- **0**   Continuing the thread `Enable Esc to reset view #66`
+
 ## **Tuesday: January 23**
+**Total Hours worked = 9.67**
 - **0**   Going through the suggestions on different open threads (issues).
 - **+1**  Working on **#61** Invalid state on setting mirror and then setting full glass for door.
 - **+1**  Still thinking about the logic to fix the invalid state.
