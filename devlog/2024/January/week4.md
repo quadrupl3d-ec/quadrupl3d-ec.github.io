@@ -14,6 +14,7 @@ title: Week 4
 - 3:45  PM: Able to reset the sliders to `[1,1]`, using svelte reactive values (when the material is changed). (#57).
 - 5:00  PM: Refactored the code. Updated PR #85 (#66).
 - 7:15  PM: Refactored the code. Updated PR #84 (#56).
+- 7:45  PM: Still stuck on `Why the updated texture is not applied on the same mesh after the uv scale is updated ?`
 
 ## **Wednesday: January 24**
 - 9:00  AM:   Continuing the thread `Enable Esc to reset view #66` 
