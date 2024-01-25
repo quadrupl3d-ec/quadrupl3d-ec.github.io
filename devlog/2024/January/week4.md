@@ -15,6 +15,8 @@ title: Week 4
 - 5:00  PM: Refactored the code. Updated PR #85 (#66).
 - 7:15  PM: Refactored the code. Updated PR #84 (#56).
 - 7:45  PM: Still stuck on `Why the updated texture is not applied on the same mesh after the uv scale is updated ?`
+- 9:00  PM: Used the browser's debugger by adding breakpoints but no luck.<br>
+What happens is whenever a material change is requested, then changeMaterial(meshes, material) is called from lib/scenejs/Walkin.js, I have added breakpoint in that function exactly where the texture is changed but couldn't find the bug ;( (#57)
 
 ## **Wednesday: January 24**
 - 9:00  AM:   Continuing the thread `Enable Esc to reset view #66` 
