@@ -9,7 +9,8 @@ title: Week 4
 - 11:00 AM: New dependencies in the latest master, therefore rebuilding the containers and fixing it.
 - 12:20 PM: Added shortcut for `Enable Esc to reset view`. Issue can be closed after review. (#66).
 - 1:30  PM: Installed horizontal and vertical sliders on the material's preview image (#57)
-- 2:15  PM: Able to set the uv_scale attribute of the selected material using sliders. (#57)
+- 2:15  PM: Able to set the uv_scale attribute of the selected material using sliders. (#57) 
+- 2:45  PM: How to reset the sliders to `[1, 1]` when the material is changed ?
 
 ## **Wednesday: January 24**
 - 9:00  AM:   Continuing the thread `Enable Esc to reset view #66` 
