@@ -3,6 +3,9 @@ layout: default
 title: Week 4
 ---
 # **January Week 4**
+## **Thursday: January 25**
+- 9:15  AM: Continuing with `Give option for UV scaling #57`
+
 ## **Wednesday: January 24**
 - 9:00  AM:   Continuing the thread `Enable Esc to reset view #66` 
 - 10:00 AM:  **Fixed: #66**. Commit done. Pushed. Now changing the way in which the key is listening. (#66)
