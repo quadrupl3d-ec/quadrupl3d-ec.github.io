@@ -6,6 +6,8 @@ title: Week 4
 ## **Thursday: January 25**
 - 9:15  AM: Continuing with `Give option for UV scaling #57`
 - 10:30 AM: Created seperate branches. Pulled the latest master, done rebase, pushed the commits in the remote branches and submitted the PR's from each.
+- 11:00 AM: New dependencies in the latest master, therefore rebuilding the containers and fixing it.
+- 
 
 ## **Wednesday: January 24**
 - 9:00  AM:   Continuing the thread `Enable Esc to reset view #66` 
