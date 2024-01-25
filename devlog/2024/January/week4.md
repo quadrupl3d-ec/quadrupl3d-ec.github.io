@@ -11,6 +11,7 @@ title: Week 4
 - 1:30  PM: Installed horizontal and vertical sliders on the material's preview image (#57)
 - 2:15  PM: Able to set the uv_scale attribute of the selected material using sliders. (#57) 
 - 2:45  PM: How to reset the sliders to `[1, 1]` when the material is changed ?
+- 3:45  PM: Able to reset the sliders to `[1,1]`, using svelte reactive values (when the material is changed). (#57).
 
 ## **Wednesday: January 24**
 - 9:00  AM:   Continuing the thread `Enable Esc to reset view #66` 
