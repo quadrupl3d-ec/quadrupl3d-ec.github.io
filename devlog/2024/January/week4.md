@@ -8,6 +8,7 @@ title: Week 4
 - 10:30 AM: Created seperate branches. Pulled the latest master, done rebase, pushed the commits in the remote branches and submitted the PR's from each.
 - 11:00 AM: New dependencies in the latest master, therefore rebuilding the containers and fixing it.
 - 12:20 PM: Added shortcut for `Enable Esc to reset view`. Issue can be closed after review. (#66).
+- 1:30  PM: Installed horizontal and vertical sliders on the material's preview image (#57)
 
 ## **Wednesday: January 24**
 - 9:00  AM:   Continuing the thread `Enable Esc to reset view #66` 
