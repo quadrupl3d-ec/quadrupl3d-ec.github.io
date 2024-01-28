@@ -4,4 +4,4 @@ title: QuadNotes
 permalink: /quadnotes/
 ---
 
-Your QuadNotes content goes here.
+[Fundamental Software development practices](/quadnotes/fsdp.md)
