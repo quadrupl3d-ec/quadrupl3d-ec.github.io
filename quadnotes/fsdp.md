@@ -25,3 +25,5 @@ If the function is not visible outside and is only defined in the local scope th
 15. Each function should not be more than 30 lines, thereby decreasing the `Bug Exposure`.
 16. No trailing whitespaces should be present.
 17. Array variable names should end with an s to indicate that the variable is a collection.
+
+[Linux kernel coding style guide](https://www.kernel.org/doc/html/v4.10/process/coding-style.html)
