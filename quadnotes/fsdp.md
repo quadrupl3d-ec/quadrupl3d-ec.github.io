@@ -1,4 +1,3 @@
-### Fundamental Software development practices
 1. **Verbosity in variable name** - 
 Less is the scope of variable, less verbose it must be. Meaning, keeping variable names short is a good practice if that variable is defined within a fucntion whose scope is less.
 2. Below should be the high level overview of a javascript class:
