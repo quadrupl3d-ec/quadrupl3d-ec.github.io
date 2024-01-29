@@ -21,9 +21,11 @@
 5 Check the differences in the currently selected branch
 
         $ git diff
+
 6 Add the current directory for tracking changes
         
         $ git add .
+
 7 Global Configuration for git to make changes
  
         $ git config --global user.email "user@domain.in"
@@ -35,6 +37,7 @@
         $ git commit -m 'commit message'
 
         $ git reset hard
+
 9. Checking the log of all git commits
 
         $ git log
@@ -64,6 +67,7 @@ Assume initially, the `new-feature` branch and the `master` branch are at the sa
 15. The `git checkout --track origin/new-feature` command is used to create a new local branch based on a remote branch called `new-feature` and set up tracking between the local and remote branches.
 
         $ git checkout --track origin/new-feature
+
 16 The `git pull --all` command is not a standard Git command. The git pull command is used to fetch and integrate changes from a remote repository into the current branch.
 
         $ git pull --all
