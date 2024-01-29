@@ -1,5 +1,4 @@
 
-### Git and Version Control
 1. Check the currently selected branch
 
         $ git branch
