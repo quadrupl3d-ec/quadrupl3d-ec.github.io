@@ -14,3 +14,5 @@ title: Week 4
 - 5:00  PM: Done the changes but not able to set UV scale !!!! Stuck.
 - 7:00  PM: Commit done. PR #88 updated. Still not able to bypass cyclic dependency and not able to implement the feature in correct way. (**#57**)
 - 7:40  PM: Commit done. PR #84 updated. Changed the key to `Alt` and removed event listeners on `Brush.clean()`. (**#56**)
+- 8:30  PM: Trying to figure out a way to bypass cyclic dependency in `MaterialPreview.svelte`.
+- 9:00  PM: Done with the weekly review call. Signing out.
