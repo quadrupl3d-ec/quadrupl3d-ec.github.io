@@ -1,4 +1,5 @@
-### Concept-2: How to pass an Anonymous function as a prop to a svelte component.
+
+**Concept-2: How to pass an Anonymous function as a prop to a svelte component.**
 
 **App.svelte**
 
