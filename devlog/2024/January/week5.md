@@ -9,3 +9,4 @@ title: Week 4
 - 11:30 AM: Done with the code review call, incorporating changes now (#).
 - 12:30 AM: Incorporated the changes stated by sir in review call (#).
 - 1:00  AM: Why the `resetSliders()` is called everytime a user sets UV scale ?
+- 1:30  AM: Commit done. PR updated. Re-requested code review. (#)
