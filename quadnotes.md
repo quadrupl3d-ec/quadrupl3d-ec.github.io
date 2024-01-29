@@ -8,3 +8,4 @@ permalink: /quadnotes/
 [Git and Version Control](/quadnotes/git.md)<br>
 [Keyboard shortcuts](/quadnotes/shortcuts.md)<br>
 [Linux kernel coding style guide](https://www.kernel.org/doc/html/v4.10/process/coding-style.html)<br>
+[Svelte basics](/quadnotes/svelte.md)
