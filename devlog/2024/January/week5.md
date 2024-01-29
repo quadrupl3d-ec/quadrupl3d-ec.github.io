@@ -7,7 +7,7 @@ title: Week 4
 - 9:20  AM Signed in.
 - 10:30 AM Figuring out a way to make the existing sliders responsive. (#57)
 - 11:30 AM: Done with the code review call, incorporating changes now (#57).
-- 12:30 AM: Incorporated the changes stated by sir in review call (#57).
+- 12:30 PM: Incorporated the changes stated by sir in review call (#57).
 - 1:00  PM: Why the `resetSliders()` is called everytime a user sets UV scale ?
 - 1:30  PM: Commit done. PR updated. Re-requested code review. (#57)
 - 3:40  PM: Debugging session with sir + Code review of PR (**#56 + #57**)
