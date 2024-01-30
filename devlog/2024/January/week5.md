@@ -17,6 +17,7 @@ title: Week 4
 - 5:30  PM: Discussed the implementation of (**#43**) on a call.
 - 7:00  PM: Resolved merge conflicts in PR.
 - 8:00  PM: Found the `remove()` method in Partition but how to request a partition delete from UI ?
+- 9:00  PM: `BoxRenderer.js` contains `PartitionRenderer` which calls `partition.remove()` on an event, but that event is never triggered. Additionally, how to display the remove controls to remove a partition ? Signing out.
   
 ## **Monday: January 29**
 - 9:20  AM Signed in.
