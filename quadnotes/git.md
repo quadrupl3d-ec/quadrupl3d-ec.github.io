@@ -1,4 +1,5 @@
 
+**Git and version control**<br>
 1. Check the currently selected branch
 
         $ git branch
@@ -60,14 +61,19 @@ Assume initially, the `new-feature` branch and the `master` branch are at the sa
 
         $ git push -f
 
-14 Delete a branch called `new-feature`
+15. Delete a branch called `new-feature`
 
         $ git branch -D new-feature
 
-15. The `git checkout --track origin/new-feature` command is used to create a new local branch based on a remote branch called `new-feature` and set up tracking between the local and remote branches.
+16. The `git checkout --track origin/new-feature` command is used to create a new local branch based on a remote branch called `new-feature` and set up tracking between the local and remote branches.
 
         $ git checkout --track origin/new-feature
 
-16 The `git pull --all` command is not a standard Git command. The git pull command is used to fetch and integrate changes from a remote repository into the current branch.
+17. The git pull command is used to fetch and integrate changes from a remote repository into the current branch.
 
         $ git pull --all
+
+18. If you want to delete some of the commits. Then in the editor which pops up, delete the line containing the commit you want to remove.
+
+        $ gco branch-name
+        $ git rebase -i HEAD~30   // This displays the last 30 commits. Press CTRL + K in nano to delete a line.
