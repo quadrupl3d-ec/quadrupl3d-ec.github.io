@@ -3,6 +3,10 @@ layout: default
 title: Week 4
 ---
 # **January Week 4**
+## **Tuesday: January 30**
+- 9:20  AM: Signed in.
+- 10:00 AM: Updated the logic for issue(**#57**). Commited changes. PR(**#88**) updated.
+
 ## **Monday: January 29**
 - 9:20  AM Signed in.
 - 10:30 AM Figuring out a way to make the existing sliders responsive. (#57)
