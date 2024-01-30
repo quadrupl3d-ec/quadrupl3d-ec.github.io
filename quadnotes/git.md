@@ -12,28 +12,28 @@
    
         $ git remote -v
 
-4 Ensure that you have pushed the new branch to the remote repository (GitHub)
+4. Ensure that you have pushed the new branch to the remote repository (GitHub)
 
         $ git push origin branch-name
 
         // Sets the remote branch as upstream
         $ git push --set-upstream origin branch-name
 
-5 Check the differences in the currently selected branch
+5. Check the differences in the currently selected branch
 
         $ git diff
 
-6 Add the current directory for tracking changes
+6. Add the current directory for tracking changes
         
         $ git add .
 
-7 Global Configuration for git to make changes
+7. Global Configuration for git to make changes
  
         $ git config --global user.email "user@domain.in"
         
         $ git config --global user.name "user"
 
-8 Commiting the changes.
+8. Commiting the changes.
            
         $ git commit -m 'commit message'
 
@@ -57,23 +57,23 @@ Assume initially, the `new-feature` branch and the `master` branch are at the sa
 
         $ git rebase -i master
 
-14. Pushes all the commits to the forked repo.
+13. Pushes all the commits to the forked repo.
 
         $ git push -f
 
-15. Delete a branch called `new-feature`
+14. Delete a branch called `new-feature`
 
         $ git branch -D new-feature
 
-16. The `git checkout --track origin/new-feature` command is used to create a new local branch based on a remote branch called `new-feature` and set up tracking between the local and remote branches.
+15. The `git checkout --track origin/new-feature` command is used to create a new local branch based on a remote branch called `new-feature` and set up tracking between the local and remote branches.
 
         $ git checkout --track origin/new-feature
 
-17. The git pull command is used to fetch and integrate changes from a remote repository into the current branch.
+16. The git pull command is used to fetch and integrate changes from a remote repository into the current branch.
 
         $ git pull --all
 
-18. If you want to delete some of the commits. Then in the editor which pops up, delete the line containing the commit you want to remove.
+17. If you want to delete some of the commits. Then in the editor which pops up, delete the line containing the commit you want to remove.
 
         $ gco branch-name
         $ git rebase -i HEAD~30   // This displays the last 30 commits. Press CTRL + K in nano to delete a line.
