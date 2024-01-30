@@ -6,6 +6,8 @@ title: Week 4
 ## **Tuesday: January 30**
 - 9:20  AM: Signed in.
 - 10:00 AM: Updated the logic for issue(**#57**). Commited changes. PR(**#88**) updated.
+- 11:00 AM: Removed all the commits from the `uv-scaling` branch, rebased with the latest master again, made new commit with the backup code added. Force pushed. PR updated. `uv-scaling` is now in sync with `master`.
+- 
 
 ## **Monday: January 29**
 - 9:20  AM Signed in.
