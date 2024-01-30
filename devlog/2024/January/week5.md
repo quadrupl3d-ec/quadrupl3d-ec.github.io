@@ -7,8 +7,10 @@ title: Week 4
 - 9:20  AM: Signed in.
 - 10:00 AM: Updated the logic for issue(**#57**). Commited changes. PR(**#88**) updated.
 - 11:00 AM: Removed all the commits from the `uv-scaling` branch, rebased with the latest master again, made new commit with the backup code added. Force pushed. PR updated. `uv-scaling` is now in sync with `master`.
-- 12:00 PM: New features (#57 + #56) merged in master by sir. Created new branch `rm-partitions`, before I could start with the issues in backlog, I found a new bug in the `Walkin/ Top view` toggler in 3D page. Created the issue, added to issue tracker and Alpha.
-- 12:40 PM: Found 3 new bugs in `ModularUI`, reported to sir.
+- 12:00 PM: **New features (#57 + #56) merged in master ** by sir. Created new branch `rm-partitions`, before I could start with the issues in backlog, I found a new bug in the `Walkin/ Top view` toggler in 3D page. Created the issue, added to issue tracker and Alpha.
+- 12:40 PM: **Found** 3 new bugs in `ModularUI`, reported to sir.
+- 1:30  PM: **Fixed** 2 old bugs that were already fixed in Modular UI but seems like due to some kind of code migration they were alive again (Door icon was not getting hidden when moving box && Control icons were not being hidden when editing mode enabled (pencil activated)).
+- 2:30  PM: **Fixed**: The move controls and icons are still visible after selecting anything from menu (Without moving the mouse).
   
 ## **Monday: January 29**
 - 9:20  AM Signed in.
