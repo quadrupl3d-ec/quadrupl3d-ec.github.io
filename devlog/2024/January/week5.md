@@ -15,6 +15,8 @@ title: Week 4
 - 3:30  PM: Submitted **PR #164** incorporating 4 bug fixes in modular UI.
 - 4:30  PM: Developed a broad idea on how to implement support for removing partitions in Modular UI.
 - 5:30  PM: Discussed the implementation of (**#43**) on a call.
+- 7:00  PM: Resolved merge conflicts in PR.
+- 8:00  PM: Found the `remove()` method in Partition but how to request a partition delete from UI ?
   
 ## **Monday: January 29**
 - 9:20  AM Signed in.
