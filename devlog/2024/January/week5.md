@@ -13,6 +13,7 @@ title: Week 4
 - 2:30  PM: **Fixed**: The move controls and icons are still visible after selecting anything from menu (Without moving the mouse).
 - 3:00  PM: Pending: Are we supposed to remove split controls if Door Type is Full glass or Door mirror is something ?
 - 3:30  PM: Submitted **PR #164** incorporating 4 bug fixes in modular UI.
+- 4:30  PM: Developed a broad idea on how to implement support for removing partitions in Modular UI.
   
 ## **Monday: January 29**
 - 9:20  AM Signed in.
