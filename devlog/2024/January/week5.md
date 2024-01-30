@@ -12,6 +12,7 @@ title: Week 4
 - 1:30  PM: **Fixed** 2 old bugs that were already fixed in Modular UI but seems like due to some kind of code migration they were alive again (Door icon was not getting hidden when moving box && Control icons were not being hidden when editing mode enabled (pencil activated)).
 - 2:30  PM: **Fixed**: The move controls and icons are still visible after selecting anything from menu (Without moving the mouse).
 - 3:00  PM: Pending: Are we supposed to remove split controls if Door Type is Full glass or Door mirror is something ?
+- 3:30  PM: Submitted **PR #164** incorporating 4 bug fixes in modular UI.
   
 ## **Monday: January 29**
 - 9:20  AM Signed in.
