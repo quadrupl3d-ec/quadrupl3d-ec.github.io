@@ -1,7 +1,16 @@
 ---
 layout: default
-title: Week 4
+title: Week 5
 ---
+# **January Week 5**
+## **Wednesday: January 31**
+- 9:25  AM: Signed in.
+- 10:00 AM: Pulled the `furnishings` branch and checked a deployment issue with sir, on one of the api containers.
+- 11:30 AM: How the partition gets highlighted with red color when it is clicked ?
+- 12:30 PM: Stuck !
+- 2:00  PM: Registered the delete key press when a partition is selected.
+- 3:00  PM: Able to remove the partition but only when a new partition is added.
+
 # **January Week 5**
 ## **Tuesday: January 30**
 - 9:20  AM: Signed in.
