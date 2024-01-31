@@ -12,6 +12,8 @@ title: Week 5
 - 3:00  PM: Able to remove the partition but only when a new partition is added.
 - 4:00  PM: `p.remove()` is not removing the partition from the array `b._partitions`. Why is that ?
 - 4:30  PM: Called the `render()` method on the UI because the partitions were being updated on delete keypress but were not rendered.
+- 5:30  PM: Partition should not be removed if the adjacent sections are of different type. But how these partitions are associated with the corresponding section ?
+- 7:30  PM: Implemented the code for: `Partitions that "support" other partitions should not be removable`
 
 # **January Week 5**
 ## **Tuesday: January 30**
