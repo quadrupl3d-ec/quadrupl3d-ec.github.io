@@ -10,6 +10,7 @@ title: Week 5
 - 12:30 PM: Stuck !
 - 2:00  PM: Registered the delete key press when a partition is selected.
 - 3:00  PM: Able to remove the partition but only when a new partition is added.
+- 4:00  PM: `p.remove()` is not removing the partition from the array `b._partitions`. Why is that ?
 
 # **January Week 5**
 ## **Tuesday: January 30**
