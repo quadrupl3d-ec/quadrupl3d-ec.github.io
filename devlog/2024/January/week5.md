@@ -15,7 +15,6 @@ title: Week 5
 - 5:30  PM: Partition should not be removed if the adjacent sections are of different type. But how these partitions are associated with the corresponding section ?
 - 7:30  PM: Implemented the code for: `Partitions that "support" other partitions should not be removable`
 
-# **January Week 5**
 ## **Tuesday: January 30**
 - 9:20  AM: Signed in.
 - 10:00 AM: Updated the logic for issue(**#57**). Commited changes. PR(**#88**) updated.
