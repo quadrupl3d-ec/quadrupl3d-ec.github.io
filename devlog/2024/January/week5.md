@@ -3,17 +3,22 @@ layout: default
 title: Week 5
 ---
 # **January Week 5**
+## **Thursday: Februrary 1**
+- 9:35  AM: Signed in.
+- 11:00 AM: Attaching the `selected` event listener to the canvas object but never removing it, causing errors in `Partition.js`. I think I should remove the delete key listener on `deselected`.
+ 
 ## **Wednesday: January 31**
 - 9:25  AM: Signed in.
 - 10:00 AM: Pulled the `furnishings` branch and checked a deployment issue with sir, on one of the api containers.
-- 11:30 AM: How the partition gets highlighted with red color when it is clicked ?
-- 12:30 PM: Stuck !
-- 2:00  PM: Registered the delete key press when a partition is selected.
-- 3:00  PM: Able to remove the partition but only when a new partition is added.
+- 11:30 AM: How the partition gets highlighted with red color when it is clicked ? (**#43**)
+- 12:30 PM: Stuck ! (**#43**)
+- 2:00  PM: Registered the delete key press when a partition is selected. (**#43**)
+- 3:00  PM: Able to remove the partition but only when a new partition is added. (**#43**)
 - 4:00  PM: `p.remove()` is not removing the partition from the array `b._partitions`. Why is that ?
 - 4:30  PM: Called the `render()` method on the UI because the partitions were being updated on delete keypress but were not rendered.
 - 5:30  PM: Partition should not be removed if the adjacent sections are of different type. But how these partitions are associated with the corresponding section ?
-- 7:30  PM: Implemented the code for: `Partitions that "support" other partitions should not be removable`
+- 7:30  PM: Implemented the code for: `Partitions that "support" other partitions should not be removable`. (**#43**)
+- 10:30 PM: Submitted **PR #174**. Signed out.
 
 ## **Tuesday: January 30**
 - 9:20  AM: Signed in.
@@ -29,7 +34,7 @@ title: Week 5
 - 5:30  PM: Discussed the implementation of (**#43**) on a call.
 - 7:00  PM: Resolved merge conflicts in PR.
 - 8:00  PM: Found the `remove()` method in Partition but how to request a partition delete from UI ?
-- 9:00  PM: `BoxRenderer.js` contains `PartitionRenderer` which calls `partition.remove()` on an event, but that event is never triggered. Additionally, how to display the remove controls to remove a partition ? Signing out.
+- 9:00  PM: `BoxRenderer.js` contains `PartitionRenderer` which calls `partition.remove()` on an event, but that event is never triggered. Additionally, how to display the remove controls to remove a partition ? Signed out.
   
 ## **Monday: January 29**
 - 9:20  AM Signed in.
