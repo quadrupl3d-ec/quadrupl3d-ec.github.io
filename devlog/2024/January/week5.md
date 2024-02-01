@@ -7,8 +7,9 @@ title: Week 5
 - 9:35  AM: Signed in.
 - 11:00 AM: Attaching the `selected` event listener to the canvas object but never removing it, causing errors in `Partition.js`. I think I should remove the delete key listener on `deselected`.
 - 11:30 AM: **Fixed:** Once a partition is selected, the delete keylistener is binded to it forever and thereby calling the `removePartition()` even when a different `co` is selected.
-- 12:15 PM: **Fixed:** After removing all the partitions, the cupboard is not scalable. Commit done. **PR #172** updated.
+- 12:15 PM: **Fixed:**: After removing all the partitions, the cupboard is not scalable. Commit done. **PR #172** updated.
 - 2:00  PM: Code refactored. **PR #172** updated.
+- 3:15  PM: **Fixed**: Toggle issue in Walk in/ Top view in 3D page. (**#159**). **PR #175** Submitted.
  
 ## **Wednesday: January 31**
 - 9:25  AM: Signed in.
