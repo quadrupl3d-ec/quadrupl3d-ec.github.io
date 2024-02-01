@@ -10,6 +10,8 @@ title: Week 5
 - 12:15 PM: **Fixed:**: After removing all the partitions, the cupboard is not scalable. Commit done. **PR #172** updated.
 - 2:00  PM: Code refactored. **PR #172** updated.
 - 3:15  PM: **Fixed**: Toggle issue in Walk in/ Top view in 3D page. (**#159**). **PR #175** Submitted.
+- 5:00  PM: Figuring out the strategy to fix : `Move control in accessible when component in Modular page is too small.`
+- 7:00  PM: Stuck on `Modular woodowork section settings menu doesn't disappear on section change.`
  
 ## **Wednesday: January 31**
 - 9:25  AM: Signed in.
