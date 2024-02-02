@@ -5,6 +5,10 @@ title: Week 5
 # **January Week 5**
 ## **Friday: Februrary 2**
 - 9:30  AM: Signed in.
+- 10:30 AM: Strategy for: Issue with move controls when component is too small in Modular.
+- 11:30 AM: Debugging session for issue () with sir.
+- 12:00 AM: Done with the code review call for **PR #172**
+- 1:50  PM: Function `removePartitions()` refactored. (#)
 
 
 ## **Thursday: Februrary 1**
