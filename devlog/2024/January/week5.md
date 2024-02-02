@@ -6,9 +6,12 @@ title: Week 5
 ## **Friday: Februrary 2**
 - 9:30  AM: Signed in.
 - 10:30 AM: Strategy for: Issue with move controls when component is too small in Modular.
-- 11:30 AM: Debugging session for issue () with sir.
+- 11:30 AM: Debugging session for issue () with sir. (**#167**)
 - 12:00 AM: Done with the code review call for **PR #172**
-- 1:50  PM: Function `removePartitions()` refactored. (#)
+- 1:50  PM: Function `removePartitions()` refactored. (**#43**)
+- 3:00  PM: Still trying to fix the dropdown issue. No luck. (**#167**)
+- 3:40  PM: Added a comment in `Box.js` and submitted the PR for final review. Will fix the `object:removed` listener later on.
+- 4:00  PM: **PR 187** Submitted. Addressing `Error while saving a wardrobe with door type to Pooja.`
 
 
 ## **Thursday: Februrary 1**
