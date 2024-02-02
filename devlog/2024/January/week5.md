@@ -3,6 +3,10 @@ layout: default
 title: Week 5
 ---
 # **January Week 5**
+## **Friday: Februrary 2**
+- 9:30  AM: Signed in.
+
+
 ## **Thursday: Februrary 1**
 - 9:35  AM: Signed in.
 - 11:00 AM: Attaching the `selected` event listener to the canvas object but never removing it, causing errors in `Partition.js`. I think I should remove the delete key listener on `deselected`.
