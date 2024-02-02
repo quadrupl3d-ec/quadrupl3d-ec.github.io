@@ -12,6 +12,8 @@ title: Week 5
 - 3:15  PM: **Fixed**: Toggle issue in Walk in/ Top view in 3D page. (**#159**). **PR #175** Submitted.
 - 5:00  PM: Figuring out the strategy to fix : `Move control in accessible when component in Modular page is too small.`
 - 7:00  PM: Stuck on `Modular woodowork section settings menu doesn't disappear on section change.`
+- 9:30  PM: I think the `_setControl` inside `showSettings()` is setting the display of the settings icon to `inline` and at the same time it should set the display of the `<ul>` element to `none`, but the catch is - The ul element ( that contains the dropdown ),
+It is not accessible outside of `onMenuSelect.set()` through jQuery, even though it is visible on every mouse move / hover.
  
 ## **Wednesday: January 31**
 - 9:25  AM: Signed in.
