@@ -12,7 +12,7 @@ title: Week 5
 - 3:00  PM: Still trying to fix the dropdown issue. No luck. (**#167**)
 - 3:40  PM: Added a comment in `Box.js` and submitted the PR for final review. Will fix the `object:removed` listener later on.
 - 4:00  PM: **PR 187** Submitted. Addressing `Error while saving a wardrobe with door type to Pooja.`
-
+- 5:00  PM: Tested `beta.emptycup3d.com` and found 2 critical bugs. Reported to sir.
 
 ## **Thursday: Februrary 1**
 - 9:35  AM: Signed in.
