@@ -13,6 +13,9 @@ title: Week 5
 - 3:40  PM: Added a comment in `Box.js` and submitted the PR for final review. Will fix the `object:removed` listener later on.
 - 4:00  PM: **PR 187** Submitted. Addressing `Error while saving a wardrobe with door type to Pooja.`
 - 5:00  PM: Tested `beta.emptycup3d.com` and found 2 critical bugs. Reported to sir.
+- 6:30  PM: Working on Issue **#75**, as I interpreted it wrongly ;(
+- 7:00  PM: Why the feature `removePartitions()` is not working in AB sir's system ;(
+- **SIGNED OUT**
 
 ## **Thursday: Februrary 1**
 - 9:35  AM: Signed in.
