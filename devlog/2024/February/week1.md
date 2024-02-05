@@ -14,3 +14,4 @@ Meaning the problem is definitely not inside `Cupboard.js`. `onSave()` calls `sa
 There is definitely some trick which I can't see. I have to read between the lines.
 - 7:00  PM: Toggled dropdown menu but why I'm not able to do the same in `onMousemove()` of `SectionRenderer` ?
 - 8:00  PM: I'm able to toggle the dropdown menu but not conditionally ;(
+- 9:00  PM: Done with the debugging session with sir. Signed out. ()
