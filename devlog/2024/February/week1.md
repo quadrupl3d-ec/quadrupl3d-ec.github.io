@@ -9,4 +9,8 @@ title: Week 5
 Meaning the problem is definitely not inside `Cupboard.js`. `onSave()` calls `saveWoodwork()` and after this point I'm a bit confused like how the function call stack will be executed. 🤔 (**#75**)
 - 11:00 AM: **Fixed**: `Show material interface on clicking on 3D`. (**#131**)
 - 12:30 PM: Done with the debugging call with sir, fixed the issue ! **;)** (**#75**)
-- 1:30  PM: Submitted the PR's for 2 bug fixes. (**#131 and #75**) and opened a new issues (**#192, #193, #194**)
+- 1:30  PM: Submitted the PR's for 2 bug fixes. (**#131 and #75**) and opened new issues (**#192, #193, #194**)
+- 5:00  PM: Gone through the documentation of `bootstrap v3.3`, why I am not able to fix this bug even after investing a lot of time in this ?
+There is definitely some trick which I can't see. I have to read between the lines.
+- 7:00  PM: Toggled dropdown menu but why I'm not able to do the same in `onMousemove()` of `SectionRenderer` ?
+- 8:00  PM: I'm able to toggle the dropdown menu but not conditionally ;(
