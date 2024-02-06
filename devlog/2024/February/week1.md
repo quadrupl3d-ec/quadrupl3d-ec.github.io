@@ -10,9 +10,8 @@ title: Week 5
 - 1:30  PM: Find out a way of displaying the loader till the image loads.
 - 2:30  PM: **Fixed:** Enhancing the UX by displaying a spinner till the image loads, also the positioning of UV sliders is no more causing glitches. Get awesome CSS loaders from `https://cssloaders.github.io/`.
 - 3:45  PM: On `Walkin.init()` how do I initialize components ? And most probably this bug occurs from the stale state of previous 3D session.
-- 4:45  PM: I think the problem is in `renderer.render()` only 🤔, because when the bug occurs, `the screen freezes before the axes are visible.`
-
-So maybe the axes are attached but the render() is having problems
+- 4:45  PM: I think the problem is in `renderer.render()` only 🤔, because when the bug occurs, `the screen freezes before the axes are visible.` So maybe the axes are attached but the render() is having problems
+- 5:20  PM: On every switch from `2D` to `3D`, `scene.children` are increasing by 6, why is this happening ?
 
 ## **Monday: Februrary 5**
 - 9:20  AM: Signed in.
