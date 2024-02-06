@@ -7,6 +7,7 @@ title: Week 5
 - 9:20  AM: Signed In.
 - 10:00 AM: **Fixed:** `Show the UV sliders only after the texture is loaded.` (**#192**)
 - 12:30 PM: Instead of using `on:load` on the `<img>`, we can fix the dimentions of the container in which the image will be loaded. This is a better fix.
+- 1:30  PM: Find out a way of displaying the loader till the image loads.
 
 ## **Monday: Februrary 5**
 - 9:20  AM: Signed in.
