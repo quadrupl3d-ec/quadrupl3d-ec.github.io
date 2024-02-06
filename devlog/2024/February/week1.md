@@ -12,6 +12,7 @@ title: Week 5
 - 3:45  PM: On `Walkin.init()` how do I initialize components ? And most probably this bug occurs from the stale state of previous 3D session.
 - 4:45  PM: I think the problem is in `renderer.render()` only 🤔, because when the bug occurs, `the screen freezes before the axes are visible.` So maybe the axes are attached but the render() is having problems
 - 5:20  PM: On every switch from `2D` to `3D`, `scene.children` are increasing by 6, why is this happening ?
+- 7:00  PM: These 6 children are strange, I'm adding axes only if its not present in `scene.children`, even then `scene.add(axes)` is called. Why is that ?
 
 ## **Monday: Februrary 5**
 - 9:20  AM: Signed in.
