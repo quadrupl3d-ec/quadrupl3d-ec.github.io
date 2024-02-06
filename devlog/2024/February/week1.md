@@ -3,6 +3,11 @@ layout: default
 title: Week 5
 ---
 # **February Week 1**
+## **Tuesday: Februrary 6**
+- 9:20  AM: Signed In.
+- 10:00 AM: **Fixed:** `Show the UV sliders only after the texture is loaded.` (**#192**)
+- 12:30 PM: Instead of using `on:load` on the `<img>`, we can fix the dimentions of the container in which the image will be loaded. This is a better fix.
+
 ## **Monday: Februrary 5**
 - 9:20  AM: Signed in.
 - 10:30 AM: When I click on save, the constructor of Cupboard.js is initialized again, and setting `this._doorType = double`,
