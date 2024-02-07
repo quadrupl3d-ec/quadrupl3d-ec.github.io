@@ -5,15 +5,16 @@ title: Week 5
 # **February Week 1**
 ## **Wednesday: Februrary 7**
 - 9:15  AM: Signed In.
-- 11:00 AM: listeners are not removed from the document in `ShiftPointer`. Added to the issue tracker. Still not able to firgure out why the screen is freezing !
+- 11:00 AM: listeners are not removed from the document in `ShiftPointer`. Added to the issue tracker. Still not able to firgure out why the screen is freezing ! (**#193**)
 - 1:00  PM: The problem is definitely not in three.js but I have now a high level overview :<br>
 Once using the shift pointer, Now switching from 2D to 3D. The geometryGroups array starts from the index value 34, why is that 🤔, and geometry.id = 2 ( geometry = furnishing's geometry ). Therefore in , `var geometryGroupsList = geometryGroups[ geometry.id ];`
 `geometryGroupsList` will remain `undefined`, causing an error.
 - 2:00  PM: Still lost in `three.js`, why after switching from `2D` to `3D`, the `CylinderGeometry` causes an error ? And why it doesn't cause any errors when not switching ?<br>
-I have completely analysed the call stack, but it appears useless to dig in. ;(
+I have completely analysed the call stack, but it appears useless to dig in. ;( (**#193**)
 - 3:00  PM: Done with the debugging call with sir. My take from debugging session - `Always define the scope of bug and narrow down bug exposure before starting hunting it.`
-- 4:00  PM: `PR #205` submitted, Now using `THREE.Line()` instead of `THREE.ArrowHelper()`. The bug was in the `CylinderGeometry` inside `three.js`, this was coming from the arrow helper. So removing the arrow helper fixes the bug.
-- 4:30  PM: Done the changes in `PR #205`. Giving a unique attribute to the `AxesGroup` in order to identify it `onKeyDown`.
+- 3:30  PM: **Fixed:** Shift pointer freezes the entire 3D page once a furnishing is hovered. (**#193**)
+- 4:00  PM: **PR #205** submitted, Now using `THREE.Line()` instead of `THREE.ArrowHelper()`. The bug was in the `CylinderGeometry` inside `three.js`, this was coming from the arrow helper. So removing the arrow helper fixes the bug.
+- 4:30  PM: Done the changes in **PR #205**. Giving a unique attribute to the `AxesGroup` in order to identify it `onKeyDown`.
  
 ## **Tuesday: Februrary 6**
 - 9:20  AM: Signed In.
