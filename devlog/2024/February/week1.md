@@ -3,6 +3,11 @@ layout: default
 title: Week 5
 ---
 # **February Week 1**
+## **Wednesday: Februrary 7**
+- 9:15  AM: Signed In.
+- 11:00 AM: listeners are not removed from the document in `ShiftPointer`. Added to the issue tracker. Still not able to firgure out why the screen is freezing !
+
+ 
 ## **Tuesday: Februrary 6**
 - 9:20  AM: Signed In.
 - 10:00 AM: **Fixed:** `Show the UV sliders only after the texture is loaded.` (**#192**)
