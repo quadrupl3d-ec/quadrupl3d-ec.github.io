@@ -15,6 +15,7 @@ I have completely analysed the call stack, but it appears useless to dig in. ;( 
 - 3:30  PM: **Fixed:** Shift pointer freezes the entire 3D page once a furnishing is hovered. (**#193**)
 - 4:00  PM: **PR #205** submitted, Now using `THREE.Line()` instead of `THREE.ArrowHelper()`. The bug was in the `CylinderGeometry` inside `three.js`, this was coming from the arrow helper. So removing the arrow helper fixes the bug.
 - 4:30  PM: Done the changes in **PR #205**. Giving a unique attribute to the `AxesGroup` in order to identify it `onKeyDown`.
+- 5:45  PM: Done with closing some merged PR's.
  
 ## **Tuesday: Februrary 6**
 - 9:20  AM: Signed In.
