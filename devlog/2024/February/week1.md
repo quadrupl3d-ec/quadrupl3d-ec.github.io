@@ -11,6 +11,8 @@ title: Week 5
 - 2:00  PM: Exporting `floorplan` from `floorplanjs`, so as to make use of the OOP.
 - 3:00  PM: Able to update the layout planner once the user clicks on save in the 3D page. But why is the `layoutChanged` event is triggered multiple times on a single click ? When to remove the event listener ?
 - 4:00  PM: Submitted PR **#212**. Fixing **#210**.
+- 4:30  PM: **PR #212** Updated. Refacotred and cleaned up. Ready to go in master.
+- 5:30  PM: Now updating the layout automatically when a user moves a furnishing and switches to `2D`. Merged **PR #212** in master.
 
 ## **Wednesday: Februrary 7**
 - 9:15  AM: Signed In.
