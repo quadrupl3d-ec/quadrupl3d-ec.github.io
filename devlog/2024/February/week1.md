@@ -3,6 +3,9 @@ layout: default
 title: Week 5
 ---
 # **February Week 1**
+## **Thursday: Februrary 8**
+- 9:30  AM: Signed In.
+
 ## **Wednesday: Februrary 7**
 - 9:15  AM: Signed In.
 - 11:00 AM: listeners are not removed from the document in `ShiftPointer`. Added to the issue tracker (**#201**). Still not able to firgure out why the screen is freezing ! (**#193**)
@@ -17,6 +20,8 @@ I have completely analysed the call stack, but it appears useless to dig in. ;( 
 - 4:30  PM: Done the changes in **PR #205**. Giving a unique attribute to the `AxesGroup` in order to identify it `onKeyDown`.
 - 5:45  PM: Done with closing some merged PR's.
 - 7:00  PM: Removing the `sceneReady` event listeners `onKeyUp`, commit done. But how to remove the listener on switching to `2D` ? (**#201**)
+- 9:00  PM: I am removing the sceneReady componentLoaded componentRemoved event listeners onKeyUp, but how to remove them when I switch to 2D. Additionally, I have checked using `jQ._data( document, "events");`. To check all the events that are attached to the document.<br>
+On every switch from 2D to 3D increases the sceneReady listeners by 10, why is that ?
  
 ## **Tuesday: Februrary 6**
 - 9:20  AM: Signed In.
