@@ -5,6 +5,12 @@ title: Week 5
 # **February Week 1**
 ## **Thursday: Februrary 8**
 - 9:30  AM: Signed In.
+- 11:00 AM: Investigating shiftpointer to create the strategy for updating the layout planner (**#210**)
+- 12:00 PM: Done with the `Neeeds Shape` call for issue (**#210**)
+- 1:00  PM: Got the data from `scenejs` inside `init()`. Attaching the event listener `layoutChanged` that passes the displacement and furnishing id through the event handler.
+- 2:00  PM: Exporting `floorplan` from `floorplanjs`, so as to make use of the OOP.
+- 3:00  PM: Able to update the layout planner once the user clicks on save in the 3D page. But why is the `layoutChanged` event is triggered multiple times on a single click ? When to remove the event listener ?
+- 4:00  PM: Submitted PR **#212**. Fixing **#210**.
 
 ## **Wednesday: Februrary 7**
 - 9:15  AM: Signed In.
