@@ -13,6 +13,7 @@ title: Week 5
 - 4:00  PM: Submitted PR **#212**. Fixing **#210**.
 - 4:30  PM: **PR #212** Updated. Refacotred and cleaned up. Ready to go in master.
 - 5:30  PM: Now updating the layout automatically when a user moves a furnishing and switches to `2D`. Merged **PR #212** in master.
+- 6:30  PM: **Fixed:** onSceneReady in shiftPointer erroring out (**#213**)
 
 ## **Wednesday: Februrary 7**
 - 9:15  AM: Signed In.
