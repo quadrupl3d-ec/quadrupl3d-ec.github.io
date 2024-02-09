@@ -3,6 +3,9 @@ layout: default
 title: Week 5
 ---
 # **February Week 1**
+## **Friday: Februrary 9**
+- 9:20  AM: Signed In.
+
 ## **Thursday: Februrary 8**
 - 9:30  AM: Signed In.
 - 11:00 AM: Investigating shiftpointer to create the strategy for updating the layout planner (**#210**)
@@ -14,6 +17,8 @@ title: Week 5
 - 4:30  PM: **PR #212** Updated. Refacotred and cleaned up. Ready to go in master.
 - 5:30  PM: Now updating the layout automatically when a user moves a furnishing and switches to `2D`. Merged **PR #212** in master.
 - 6:30  PM: **Fixed:** onSceneReady in shiftPointer erroring out (**#213**)
+- 8:00  PM: **Fixed:**OnkeyDown called when `scene == undefined`.
+- 9:00  PM: Made the visible ray casted through `showCastedRay(x, y)`. Submitted **PR #217**.
 
 ## **Wednesday: Februrary 7**
 - 9:15  AM: Signed In.
