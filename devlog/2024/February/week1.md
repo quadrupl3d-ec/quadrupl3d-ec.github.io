@@ -6,6 +6,10 @@ title: Week 5
 ## **Friday: Februrary 9**
 - 9:20  AM: Signed In.
 - 10:30 AM: For this feature to work smoothly, I think the distance between the camera from which the ray is casted and the furnishing should be more than a particular value. Because if the distance is smaller than that, in some Orientations, `the minimum distance of the casted ray is smaller from the axis along which we don't want to translate the furnishing.`
+- 12:30 PM: Done with the debugging call with sir. We still need to identify the pin point cause of the issue (**#225**)
+- 2:00  PM: Digging in the mathematics of **#225** to see why the bug is occuring.
+- 3:30  PM: **Fixed:** ShiftPointer is inaccurate when shifting the object from close by (**#225**)
+- 4:00  PM: **PR #230** Submitted. The movement of the furnishing is now enabled in all 
 
 ## **Thursday: Februrary 8**
 - 9:30  AM: Signed In.
@@ -62,4 +66,4 @@ Meaning the problem is definitely not inside `Cupboard.js`. `onSave()` calls `sa
 There is definitely some trick which I can't see. I have to read between the lines.
 - 7:00  PM: Toggled dropdown menu but why I'm not able to do the same in `onMousemove()` of `SectionRenderer` ?
 - 8:00  PM: I'm able to toggle the dropdown menu but not conditionally ;(
-- 9:00  PM: Done with the debugging session with sir. Signed out. ()
+- 9:00  PM: Done with the debugging session with sir. Signed out.
