@@ -5,6 +5,7 @@ title: Week 5
 # **February Week 1**
 ## **Friday: Februrary 9**
 - 9:20  AM: Signed In.
+- 10:30 AM: For this feature to work smoothly, I think the distance between the camera from which the ray is casted and the furnishing should be more than a particular value. Because if the distance is smaller than that, in some Orientations, `the minimum distance of the casted ray is smaller from the axis along which we don't want to translate the furnishing.`
 
 ## **Thursday: Februrary 8**
 - 9:30  AM: Signed In.
