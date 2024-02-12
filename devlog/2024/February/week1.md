@@ -9,7 +9,8 @@ title: Week 5
 - 12:30 PM: Done with the debugging call with sir. We still need to identify the pin point cause of the issue (**#225**)
 - 2:00  PM: Digging in the mathematics of **#225** to see why the bug is occuring.
 - 3:30  PM: **Fixed:** ShiftPointer is inaccurate when shifting the object from close by (**#225**)
-- 4:00  PM: **PR #230** Submitted. The movement of the furnishing is now enabled in all 
+- 4:00  PM: **PR #230** Submitted. The movement of the furnishing is now enabled in all orientations and in all directions.
+- 6:00  PM: Now that the block is gone, I'm trying to make the movement smooth.
 
 ## **Thursday: Februrary 8**
 - 9:30  AM: Signed In.
