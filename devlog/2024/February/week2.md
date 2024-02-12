@@ -13,4 +13,5 @@ title: Week 7
 - 6:00  PM: Picking up the issue - `Sometimes door menu is not visible in modular UI` (**#240**)
 - 7:30  PM: How to display the dropdown based on screen height ?
 - 9:00  PM: **Fixed:** Sometimes door menu is not visible in modular UI (**#240**)
+- 10:30 PM: Now refactored and submitted **PR #265**
 
