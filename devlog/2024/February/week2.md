@@ -4,6 +4,11 @@ title: Week 7
 ---
 
 # **February Week 2**
+## **Tuesday: Februrary 13**
+- 9:40  AM: Signed In.
+- 11:00 AM: Now subdropdowns are also positioned based on the screen height. Updated **PR #265**. Now refactoring the Code.
+- 12:30 PM: Undo the changes when the `onLeave` handler is triggered. (**#240**)
+
 ## **Monday: Februrary 12**
 - 9:20  AM: Signed In.
 - 11:00 AM: Confused. Using the debugger to analyse the bug more deeply.
