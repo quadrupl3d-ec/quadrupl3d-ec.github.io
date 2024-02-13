@@ -13,6 +13,8 @@ title: Week 7
 - 5:00  PM: **Fixed:** UV sliders not aligned properly.**PR #268** Submitted. (**#243**)
 - 6:00  PM: Changed the color of the spinner to grey and did some minor polishes in the code. Updated **PR #268**.
 - 7:00  PM: **Fixed:** Show material ids in the Material Reel. Submitted **PR #269**. (**#248**)
+- 8:30  PM: Download the front view images of `TV` and `Door`, `tv.png` works fine but yet I need to confirm the authenticity of the file.
+Also, how to reproduce the error - `tv.png not found.` in modular.
 
 ## **Monday: Februrary 12**
 - 9:20  AM: Signed In.
