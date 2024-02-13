@@ -12,6 +12,7 @@ title: Week 7
 - 3:00  PM: Able to make the UV sliders responsive, bit the positioning of sliders is not up to mark when the screen width decreases.
 - 5:00  PM: **Fixed:** UV sliders not aligned properly.**PR #268** Submitted. (**#243**)
 - 6:00  PM: Changed the color of the spinner to grey and did some minor polishes in the code. Updated **PR #268**.
+- 7:00  PM: **Fixed:** Show material ids in the Material Reel. Submitted **PR #269**. (**#248**)
 
 ## **Monday: Februrary 12**
 - 9:20  AM: Signed In.
