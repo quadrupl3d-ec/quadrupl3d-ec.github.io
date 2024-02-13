@@ -10,6 +10,8 @@ title: Week 7
 - 12:00 PM: Undo the changes when the `onLeave` handler is triggered. (**#240**)
 - 1:00  PM: **Fixed:** Sometimes door menu is not visible in modular UI. Tested all possible cases, refactored the code. **PR #265** Updated. Going on for the next issue. (**#240**)
 - 3:00  PM: Able to make the UV sliders responsive, bit the positioning of sliders is not up to mark when the screen width decreases.
+- 5:00  PM: **Fixed:** UV sliders not aligned properly.**PR #268** Submitted. (**#243**)
+- 6:00  PM: Changed the color of the spinner to grey and did some minor polishes in the code. Updated **PR #268**.
 
 ## **Monday: Februrary 12**
 - 9:20  AM: Signed In.
