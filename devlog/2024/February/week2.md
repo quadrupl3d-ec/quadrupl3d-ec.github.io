@@ -7,7 +7,8 @@ title: Week 7
 ## **Tuesday: Februrary 13**
 - 9:40  AM: Signed In.
 - 11:00 AM: Now subdropdowns are also positioned based on the screen height. Updated **PR #265**. Now refactoring the Code.
-- 12:30 PM: Undo the changes when the `onLeave` handler is triggered. (**#240**)
+- 12:00 PM: Undo the changes when the `onLeave` handler is triggered. (**#240**)
+- 1:00  PM: **Fixed:** Sometimes door menu is not visible in modular UI. Tested all possible cases, refactored the code. **PR #265** Updated. Going on for the next issue. (**#240**)
 
 ## **Monday: Februrary 12**
 - 9:20  AM: Signed In.
