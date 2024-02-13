@@ -15,6 +15,7 @@ title: Week 7
 - 7:00  PM: **Fixed:** Show material ids in the Material Reel. Submitted **PR #269**. (**#248**)
 - 8:30  PM: Download the front view images of `TV` and `Door`, `tv.png` works fine but yet I need to confirm the authenticity of the file.
 Also, how to reproduce the error - `tv.png not found.` in modular. (**#244**)
+- 9:30  PM: I got the door image but seems like the `loadScaledImage()` inside `UnitRenderer.js` is repeating the door to fill the height and width of the actual door fitting. (**#244**).
 
 ## **Monday: Februrary 12**
 - 9:20  AM: Signed In.
