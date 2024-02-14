@@ -2,8 +2,10 @@
 layout: default
 title: Week 7
 ---
-
 # **February Week 2**
+## **Wednesday: Februrary 14**
+- 9:20  AM: Signed In.
+
 ## **Tuesday: Februrary 13**
 - 9:40  AM: Signed In.
 - 11:00 AM: Now subdropdowns are also positioned based on the screen height. Updated **PR #265**. Now refactoring the Code.
