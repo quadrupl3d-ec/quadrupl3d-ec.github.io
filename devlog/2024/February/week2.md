@@ -9,7 +9,8 @@ title: Week 7
 - 11:00 AM: How to snap the furnishing to its original position ? And the snap means when returning back to the original position, change the positon to the original for already set minimum value of delta (**#222**)
 - 12:00 PM: Able to `snap the furnishing to its original position when translated along the x axis`. I Need to implement for other axes and also how to snap the furnishing to wall ?
 - 1:30  PM: Shift pointer now snaps to the original position, works for all axes. Refactored a litle.
-- 2:30  PM: Submitted **PR #273**. (**#222**)
+- 2:30  PM: Submitted **PR #273**. (**#222**).
+- 4:00  PM: I have imported the floorplan in my Components.js and I can get pairs of walls which are parallel, but when I move the furnishing, how will I know the walls which are perpendicular to the axis of translation.<br> My idea is that, at any point of time, I want to get the distance of the furnishing from the closest wall. (**#222**)
 
 ## **Tuesday: Februrary 13**
 - 9:40  AM: Signed In.
