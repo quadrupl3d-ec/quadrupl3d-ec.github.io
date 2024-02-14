@@ -5,6 +5,8 @@ title: Week 7
 # **February Week 2**
 ## **Wednesday: Februrary 14**
 - 9:20  AM: Signed In.
+- 10:30 AM: Bypassed media queries and made the code concise and accurate. Now the spinner-container and img-containers are fully responsive.
+- 
 
 ## **Tuesday: Februrary 13**
 - 9:40  AM: Signed In.
