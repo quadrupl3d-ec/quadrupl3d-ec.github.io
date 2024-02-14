@@ -5,10 +5,11 @@ title: Week 7
 # **February Week 2**
 ## **Wednesday: Februrary 14**
 - 9:20  AM: Signed In.
-- 10:30 AM: Bypassed media queries and made the code concise and accurate. Now the spinner-container and img-containers are fully responsive.
-- 11:00 AM: How to snap the furnishing to its original position ? And the snap means when returning back to the original position, change the positon to the original for already set minimum value of delta.
+- 10:30 AM: Bypassed media queries and made the code concise and accurate. Now the spinner-container and img-containers are fully responsive.(**#243**)
+- 11:00 AM: How to snap the furnishing to its original position ? And the snap means when returning back to the original position, change the positon to the original for already set minimum value of delta (**#222**)
 - 12:00 PM: Able to `snap the furnishing to its original position when translated along the x axis`. I Need to implement for other axes and also how to snap the furnishing to wall ?
 - 1:30  PM: Shift pointer now snaps to the original position, works for all axes. Refactored a litle.
+- 2:30  PM: Submitted **PR #273**. (**#222**)
 
 ## **Tuesday: Februrary 13**
 - 9:40  AM: Signed In.
