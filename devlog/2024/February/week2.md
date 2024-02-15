@@ -2,7 +2,19 @@
 layout: default
 title: Week 7
 ---
+
 # **February Week 2**
+## **Thursday: Februrary 15**
+- 9:20  AM: Signed In.
+- 11:00 AM:
+- 12:30 PM:
+- 2:00  PM:
+- 3:00  PM:
+- 4:00  PM: faceIndex = 0 wasted my 1 hour, There is not way to filter out wall specific meshes from the scene.
+- 5:00  PM: Able to snap the furnishing to the original position and walls. But the snapping have glitches, movement is not smooth. Why is that ? And is there a way to filter the interior wall from interesected objects.
+- 7:30  PM: Where does the point lie on the object from which the ray is casted ?
+- 9:00  PM: Perfect snapping along X axis.
+
 ## **Wednesday: Februrary 14**
 - 9:20  AM: Signed In.
 - 10:30 AM: Bypassed media queries and made the code concise and accurate. Now the spinner-container and img-containers are fully responsive.(**#243**)
