@@ -4,6 +4,10 @@ title: Week 7
 ---
 
 # **February Week 2**
+## **Friday: Februrary 16**
+- 9:20  AM: Signed In.
+- 4:15  PM: Snapping to exterior walls.
+
 ## **Thursday: Februrary 15**
 - 9:20  AM: Signed In.
 - 11:00 AM:
