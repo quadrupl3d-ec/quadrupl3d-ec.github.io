@@ -11,4 +11,5 @@ title: Week 8
 - 3:00  PM: How to select the point of intersection so that A1A2 vector will lie in the plane containing the axis ?
 - 4:00  PM: Submitted **PR #230** (**#225**)
 - 5:15  PM: Submitted **PR #273**. Snap the furnishing to walls. (**#222**)
-- 6:30  PM: 
+- 6:30  PM: How to differentiate the meshes that correspond to the interior face of a wall which are intersected by the raycaster ?
+- 7:00  PM: Maybe the face vertices can help the raycaster in identifying the meshes that correspond to interior walls ?
