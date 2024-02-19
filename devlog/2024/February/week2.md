@@ -6,17 +6,21 @@ title: Week 7
 # **February Week 2**
 ## **Friday: Februrary 16**
 - 9:20  AM: Signed In.
-- 4:15  PM: Snapping to exterior walls.
+- 11:00 AM: Refactoring the code for snapping to walls.
+- 12:00 PM: Issues in getting the offset as the `from.z` is at the front face of the furnishing object.
+- 4:15  PM: Snapping to exterior walls. Upadted **PR #273**.
+- 6:30  PM: Done with the code review call with the sir.
 
 ## **Thursday: Februrary 15**
 - 9:20  AM: Signed In.
-- 11:00 AM:
-- 12:30 PM:
-- 2:00  PM:
-- 3:00  PM:
+- 11:00 AM: Got overview of the quick implementation of the snapping to walls. Can't use `floorplan` to get the walls.
+- 12:30 PM: How to cast a ray from the center of the furnishing and get the distance from the wall ?
+- 2:00  PM: Able to get the distance of the furnishing from the wall, Need to get offsets from the initial position (`from`) of this furnishing object.
+- 3:00  PM: Got the positive and negative offsets from the center of furnishing from it's initial position.
 - 4:00  PM: faceIndex = 0 wasted my 1 hour, There is not way to filter out wall specific meshes from the scene.
 - 5:00  PM: Able to snap the furnishing to the original position and walls. But the snapping have glitches, movement is not smooth. Why is that ? And is there a way to filter the interior wall from interesected objects.
 - 7:30  PM: Where does the point lie on the object from which the ray is casted ?
+- 8:00  PM: No moer using `jQuery` to set the height of the spinner container. Using `aspect-ratio: 1/1` on the `spinner-container`. Updated **PR**. (**#243**)
 - 9:00  PM: Perfect snapping along X axis.
 
 ## **Wednesday: Februrary 14**
