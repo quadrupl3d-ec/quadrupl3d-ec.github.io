@@ -11,6 +11,7 @@ title: Week 8
 - 2:00  PM: The beta version will have two containers only and it will use the cloud redis and clous db. Therefore, creating `docker-compose-beta.yml` to deploy a multi container application.
 - 3:00  PM: Forgot to update the `supervisord.conf` file for beta environment inside the docker compose file. Fixing `redis: 6379` not found issue inside the container logs.
 - 3:30  PM: Able to deploy the `beta.emptycup3d.com` locally but why the frontend is not accessible ?
+- 5:00  PM: I'm mapping the host port to container's port and exposing the port in `beta.Dockerfile`, still the frontend is not accessible. Why is that happening ?
 
 ## **Monday: Februrary 19**
 - 9:20  AM: Signed in.
