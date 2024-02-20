@@ -3,6 +3,10 @@ layout: default
 title: Week 8
 ---
 # **February Week 3**
+## **Tuesday: Februrary 20**
+- 9:30  AM: Signed In.
+- 11:00 AM: Done with the call with Ab sir, highlighted some points about the new task.
+
 ## **Monday: Februrary 19**
 - 9:20  AM: Signed in.
 - 11:00 AM: Visualizing the casted ray to check the authenticity of `_computeTranslation(x, y);`
@@ -13,3 +17,5 @@ title: Week 8
 - 5:15  PM: Submitted **PR #273**. Snap the furnishing to walls. (**#222**)
 - 6:30  PM: How to differentiate the meshes that correspond to the interior face of a wall which are intersected by the raycaster ?
 - 7:00  PM: Maybe the face vertices can help the raycaster in identifying the meshes that correspond to interior walls ?
+- 8:00  PM: Is there any way to uniquely identify the interior faces of walls ? Currently I'm using faceIndex = 0. But sometimes interior walls have faceIndex = 1 as well. Like I need a unique identification for the meshes that correspond to the interior face of wall.
+- 9:00  PM: Done with the weekly review call with the manager and CTO.
