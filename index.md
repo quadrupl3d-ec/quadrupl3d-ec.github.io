@@ -12,4 +12,4 @@ January, 2024 - [Week 5](devlog/2024/January/week5.md)<br><br>
 
 Februrary, 2024 - [Week 1](devlog/2024/February/week1.md)<br>
 Februrary, 2024 - [Week 2](devlog/2024/February/week2.md)<br>
-Februrary, 2024 - [Week 2](devlog/2024/February/week3.md)<br>
+Februrary, 2024 - [Week 3](devlog/2024/February/week3.md)<br>
