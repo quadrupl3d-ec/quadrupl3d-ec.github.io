@@ -6,6 +6,11 @@ title: Week 8
 ## **Tuesday: Februrary 20**
 - 9:30  AM: Signed In.
 - 11:00 AM: Done with the call with Ab sir, highlighted some points about the new task.
+- 12:00 PM: do I have to set this up locally so I should use the same `beta.Dockerfile` and containerize only the webapp on a different port. As the beta will use the same api, redis and db ?
+- 1:00  PM: I created a `docker-compose-beta.yml` that only contains the `webapp` service and uses `beta.Dockerfile`. And the 3 containers remain same. But this is wrong.
+- 2:00  PM: The beta version will have two containers only and it will use the cloud redis and clous db. Therefore, creating `docker-compose-beta.yml` to deploy a multi container application.
+- 3:00  PM: Forgot to update the `supervisord.conf` file for beta environment inside the docker compose file. Fixing `redis: 6379` not found issue inside the container logs.
+- 3:30  PM: Able to deploy the `beta.emptycup3d.com` locally but why the frontend is not accessible ?
 
 ## **Monday: Februrary 19**
 - 9:20  AM: Signed in.
