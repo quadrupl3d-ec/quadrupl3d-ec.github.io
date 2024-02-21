@@ -2,7 +2,13 @@
 layout: default
 title: Week 8
 ---
+
 # **February Week 3**
+## **Wednesday: Februrary 21**
+- 9:30  AM: Signed in.
+- 10:30 AM: Able to acces the beta deployment lcoally on port 4000. Now having some issues connecting to the MySqL server.
+- 12:00 PM: Read about `Github actions`. Read about `rq` in python. Did the documentation for the beta deployment. (**#312**)
+
 ## **Tuesday: Februrary 20**
 - 9:30  AM: Signed In.
 - 11:00 AM: Done with the call with Ab sir, highlighted some points about the new task.
