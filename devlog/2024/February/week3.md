@@ -10,6 +10,7 @@ title: Week 8
 - 12:00 PM: Read about `Github actions`. Read about `rq` in python. Did the documentation for the beta deployment. (**#312**)
 - 1:00  PM: Done with the call with Ab sir, finding a way to enable the connections from the api container to the cloud db.
 - 2:00  PM: Signing up for Azure account, having issues with debit card and credit cards.
+- 4:00  PM: Deployed a MySQL Azure flexible server and connected to it using SSL. Currently configured with public access. Now need to export oue DB and import it in the newly created DB. (**#312**)
 
 ## **Tuesday: Februrary 20**
 - 9:30  AM: Signed In.
