@@ -11,7 +11,7 @@ title: Week 8
 - 1:00  PM: Done with the call with Ab sir, finding a way to enable the connections from the api container to the cloud db.
 - 2:00  PM: Signing up for Azure account, having issues with debit card and credit cards.
 - 4:00  PM: Deployed a MySQL Azure flexible server and connected to it using SSL. Currently configured with public access. Now need to export oue DB and import it in the newly created DB. (**#312**)
-- 5:00  PM: Updated the `beta.Dockerfile` to use the new db connection string and connect to the newly created Azure DB. Build and deployed the beta containers again. Now the beta deployment is working good. So, in all, the folks need to add their IP to this Azure server and they're good to go with the beta deployment.
+- 5:00  PM: Updated the `beta.Dockerfile` to use the new db connection string and connect to the newly created Azure DB. Build and deployed the beta containers again. Now the beta deployment is working good. So, in all, the folks need to add their IP to this Azure server's firewall rules and they're good to go with the beta deployment.
 
 ## **Tuesday: Februrary 20**
 - 9:30  AM: Signed In.
