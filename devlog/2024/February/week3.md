@@ -8,6 +8,8 @@ title: Week 8
 - 9:30  AM: Signed in.
 - 10:30 AM: Able to acces the beta deployment lcoally on port 4000. Now having some issues connecting to the MySqL server.
 - 12:00 PM: Read about `Github actions`. Read about `rq` in python. Did the documentation for the beta deployment. (**#312**)
+- 1:00  PM: Done with the call with Ab sir, finding a way to enable the connections from the api container to the cloud db.
+- 2:00  PM: Signing up for Azure account, having issues with debit card and credit cards.
 
 ## **Tuesday: Februrary 20**
 - 9:30  AM: Signed In.
