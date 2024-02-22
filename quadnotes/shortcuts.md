@@ -6,3 +6,5 @@
 - Place the cursor anywhere in the desired line.
 - Press and hold the `ALT` key.
 - Press the down key if you want to move the line below, for example moving line number 12 to line number 13.
+
+6. CTRL + y to REDO.
