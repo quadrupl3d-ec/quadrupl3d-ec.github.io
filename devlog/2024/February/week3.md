@@ -7,6 +7,11 @@ title: Week 8
 ## **Thursday: Februrary 22**
 - 9:30  AM: Signed in.
 - 12:00 PM: Done with the call about beta deploymment locally.
+- 2:00  PM: The dev machine should have an env variable that holds the cloud db of client. If this variable is empty then select the value of the database URI from `beta.Dockerfile`. Also, there is no need to have seperate `webapp` container for beta deployment.
+- 3:00  PM: Why the `webapp` container is stopping suddenly when I access `beta.local:3000` ? Why the `beta API` is not fetching queries from my cloud azure sql server ?
+- 5:00  PM: If the dev machine is having the value of an `CLOUD_DB` environment variable set, then override the value of environment variable in the runtime initialization of docker container using `ecbeta`. Modified the `dev.sh.rc` file.
+- 6:00  PM: Used bash scripting to parse the authentication credentials of cloud database and redis cache servers and overriding the environment variables in `beta.Dockerfile`.
+- 7:30  PM: Completed the docs with new changes, commit done. **PR #326** Updated.
 
 ## **Wednesday: Februrary 21**
 - 9:30  AM: Signed in.
