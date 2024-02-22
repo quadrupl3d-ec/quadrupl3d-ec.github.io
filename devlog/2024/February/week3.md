@@ -14,6 +14,7 @@ title: Week 8
 - 7:30  PM: Completed the docs with new changes, commit done. **PR #326** Updated.
 - 8:30  PM: Azure cloud redis server now working in beta deployment. Fixed the `CLOUD_REDIS_URI` and updated the PR. Added the authentication credentials to my dev machine's environment using `.bashrc`.
 - 9:30  PM: Figured out a way of setting up `ecdocs` on every system boot. Created a system daemon, which now runs on every system boot. Now it would be better if this can be done inside the API container, so if the API container is running, docs are live. (**#328**).
+- 10:30 PM: Issues having connecting to `localhost:9999` outside the container. (**#328**).
 
 ## **Wednesday: Februrary 21**
 - 9:30  AM: Signed in.
