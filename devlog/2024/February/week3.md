@@ -12,6 +12,7 @@ title: Week 8
 - 5:00  PM: If the dev machine is having the value of an `CLOUD_DB` environment variable set, then override the value of environment variable in the runtime initialization of docker container using `ecbeta`. Modified the `dev.sh.rc` file.
 - 6:00  PM: Used bash scripting to parse the authentication credentials of cloud database and redis cache servers and overriding the environment variables in `beta.Dockerfile`.
 - 7:30  PM: Completed the docs with new changes, commit done. **PR #326** Updated.
+- 8:30  PM: Azure cloud redis server now working in beta deployment. Fixed the `CLOUD_REDIS_URI` and updated the PR. Added the authentication credentials to my dev machine's environment using `.bashrc`.
 
 ## **Wednesday: Februrary 21**
 - 9:30  AM: Signed in.
