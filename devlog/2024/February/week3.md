@@ -1,4 +1,3 @@
----
 layout: default
 title: Week 8
 ---
@@ -6,7 +5,7 @@ title: Week 8
 # **February Week 3**
 ## **Friday: Februrary 23**
 - 9:30  AM: Signed In.
-- 
+- 10:30 AM: **PR #336** Submitted. Fixed **#328**.
 
 ## **Thursday: Februrary 22**
 - 9:30  AM: Signed in.
