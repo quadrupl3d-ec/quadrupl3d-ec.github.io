@@ -6,6 +6,7 @@ title: Week 8
 ## **Friday: Februrary 23**
 - 9:30  AM: Signed In.
 - 10:30 AM: **PR #336** Submitted. Fixed **#328**.
+- 12:30 PM: Worked on the ideation task `Containerize render worker and manager.` (**#103**)
 
 ## **Thursday: Februrary 22**
 - 9:30  AM: Signed in.
