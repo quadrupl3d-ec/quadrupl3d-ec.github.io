@@ -4,6 +4,10 @@ title: Week 8
 ---
 
 # **February Week 3**
+## **Friday: Februrary 23**
+- 9:30  AM: Signed In.
+- 
+
 ## **Thursday: Februrary 22**
 - 9:30  AM: Signed in.
 - 12:00 PM: Done with the call about beta deploymment locally.
