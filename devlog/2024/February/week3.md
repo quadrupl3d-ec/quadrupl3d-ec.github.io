@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Week 7
+title: Week 8
 ---
 
 # **February Week 3**
@@ -9,6 +9,8 @@ title: Week 7
 - 10:30 AM: **PR #336** Submitted. Fixed **#328**.
 - 12:30 PM: Worked on the ideation task `Containerize render worker and manager.` (**#103**)
 - 2:30  PM: Got an intermediate idea about the need to containerize render workers and render managers. (**#103**)
+- 4:00  PM: Worked on `Add time to render to Render row in DB` and still trying to frame a way of containerizing render-workers. (**#90**).
+- 5:00  PM: Worked a little on `Log cloud updates in emptycup.core.cloud`, these are all connected. Containerizing, logging, time to render.
 
 ## **Thursday: Februrary 22**
 - 9:30  AM: Signed in.
