@@ -1,5 +1,6 @@
+---
 layout: default
-title: Week 8
+title: Week 7
 ---
 
 # **February Week 3**
