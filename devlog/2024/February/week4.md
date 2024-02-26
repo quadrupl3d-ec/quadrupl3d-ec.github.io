@@ -11,3 +11,4 @@ title: Week 9
 - 1:30  PM: Done with the code review call for **PR #230**. (**#225**)
 - 3:00  PM: Refactoring ShiftPointer. Removing unnecessary code that makes it complex. (**#225**)
 - 4:30  PM: Updated **PR #230**. Refactored `_computeTranslation(x, y)` and installed helper functions to make the code more readable. Worked on scope of transient variables. (**#225**)
+- 5:15  PM: Fixed some wrong comments in _computeTranslation() function.
