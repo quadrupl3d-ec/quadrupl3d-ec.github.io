@@ -24,3 +24,5 @@ If the function is not visible outside and is only defined in the local scope th
 15. Each function should not be more than 30 lines, thereby decreasing the `Bug Exposure`.
 16. No trailing whitespaces should be present.
 17. Array variable names should end with an s to indicate that the variable is a collection.
+18. Transient variables should have a block scope, therefore, declare the transient variables using `let` as `let` has a block scope.
+19. `var` has a stronger scope as compared to `let`. 
