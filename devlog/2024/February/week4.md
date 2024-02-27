@@ -9,6 +9,11 @@ title: Week 9
 - 11:00 AM: Not able to reproduce the issue - `Render status inconsistency when manager errors out`
 - 12:00 PM: Stuck. Not able to get renders in development environment. Not able to use `eccli`, even after installing it.
 - 1:30  PM: Working on Log cloud updates in emptycup.core.cloud now.
+- 2:00  PM: Reboot time. Feeling burned out.
+- 5:30  PM: At work now, starting with how to get renders on development environment.
+- 8:30  PM: **Fixed:** Containerized render worker. (**#103**)
+- 10:30 PM: Tried to run the container as a non-root (worker) user.
+- 11:30 PM: Volume mapping in `docker-compose-dev.yml` is causing problems in ownership assignment to the non-root user. **PR #361** Submitted.
 
 ## **Monday: Februrary 26**
 - 9:30  AM: Signed In.
