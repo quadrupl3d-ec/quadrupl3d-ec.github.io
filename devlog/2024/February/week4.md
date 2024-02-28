@@ -9,6 +9,7 @@ title: Week 9
 - 10:40 AM: Added a column in the Render table, used database migration inside API container. (**#90**)
 - 3:10  PM: **PR** Merged. Done with the refactoring call with sir on the `inaccurate-pointer` branch. Learned a lot of good refactoring techniques and naming conventions. (**#225**)
 - 5:20  PM: Able to run the jobs container without using a separate superisord.conf file. Jobs container picks up the newjob but throws an error. Not able to get the `cfgp`, what's that ?
+- 8:20  PM: **PR #364** Submitted. Implemented `Time-to-render` for preemptible jobs.
 
 ## **Tuesday: Februrary 27**
 - 9:45  AM: Signed in.
