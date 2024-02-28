@@ -4,6 +4,11 @@ title: Week 9
 ---
 
 # **February Week 9**
+## **Wednesday: Februrary 28**
+- 9:40  AM: Signed in.
+- 10:40 AM: Added a column in the Render table, used database migration inside API container. (**#90**)
+- 1:30  PM: Done with the refactoring call with sir on the `inaccurate-pointer` branch. Learned a lot of good refactoring techniques and naming conventions. (**#225**)
+
 ## **Tuesday: Februrary 27**
 - 9:45  AM: Signed in.
 - 11:00 AM: Not able to reproduce the issue - `Render status inconsistency when manager errors out`
