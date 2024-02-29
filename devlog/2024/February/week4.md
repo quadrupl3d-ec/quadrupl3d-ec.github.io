@@ -8,6 +8,7 @@ title: Week 9
 - 9:30  AM: Signed in.
 - 10:30 AM: Blocked on some issues.
 - 12:00 PM: Fixed a huge logic bug in `ShiftPointer`. Submitted `PR #366`
+- 2:00  PM: Getting started with the mixpanel API and server-side tracking. (**#143**)
 
 ## **Wednesday: Februrary 28**
 - 9:40  AM: Signed in.
