@@ -11,6 +11,7 @@ title: Week 9
 - 2:00  PM: Getting started with the mixpanel API and server-side tracking. (**#143**)
 - 3:30  PM: Starting with the jobs container issue again. Seems like the worker is not resilient to errors. Supervisord was smooth.
 - 7:15  PM: Stuck on `Not able to execute the alias through docker-compose.yml`. (**#103**)
+- 9:00  PM: Worked out - `Implement ec backup archive_repo`.(**#320**)
 
 ## **Wednesday: Februrary 28**
 - 9:40  AM: Signed in.
