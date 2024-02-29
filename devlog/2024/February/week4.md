@@ -4,6 +4,10 @@ title: Week 9
 ---
 
 # **February Week 9**
+## **Thursday: Februrary 29**
+- 9:30  AM: Signed in.
+- 
+
 ## **Wednesday: Februrary 28**
 - 9:40  AM: Signed in.
 - 10:40 AM: Added a column in the Render table, used database migration inside API container. (**#90**)
