@@ -6,7 +6,8 @@ title: Week 9
 # **February Week 9**
 ## **Thursday: Februrary 29**
 - 9:30  AM: Signed in.
-- 
+- 10:30 AM: Blocked on some issues.
+- 12:00 PM: Fixed a huge logic bug in `ShiftPointer`.
 
 ## **Wednesday: Februrary 28**
 - 9:40  AM: Signed in.
