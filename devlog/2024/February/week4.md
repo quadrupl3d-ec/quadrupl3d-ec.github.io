@@ -4,6 +4,10 @@ title: Week 9
 ---
 
 # **February Week 9**
+## **Friday: March 1**
+- 9:45 AM: Signed In.
+- 3:00 PM: Stuck in the logic of `back frequency`. **PR #371** Submitted. (**#320**) 
+
 ## **Thursday: Februrary 29**
 - 9:30  AM: Signed in.
 - 10:30 AM: Blocked on some issues.
