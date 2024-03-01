@@ -6,7 +6,9 @@ title: Week 9
 # **February Week 9**
 ## **Friday: March 1**
 - 9:45 AM: Signed In.
-- 3:00 PM: Stuck in the logic of `back frequency`. **PR #371** Submitted. (**#320**) 
+- 3:00 PM: Stuck in the logic of `back frequency`. **PR #371** Submitted. (**#320**)
+- 4:00 PM: Setup Mixpanel in the Backend. (**#143**)
+- 5:45 PM: Tracking job events through Mixpanel dashboard. Submitted **PR #372**. (**#143**).
 
 ## **Thursday: Februrary 29**
 - 9:30  AM: Signed in.
