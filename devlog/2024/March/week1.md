@@ -7,3 +7,5 @@ title: Week 10
 ## **Monday: March 4**
 - 9:30  AM: Signed In.
 - 11:00 AM: Submitted **PR #439** from `jobs-container`. (**#103**)
+- 12:00 PM: Mistakenly deleted the `version/xxxx.py` migration file of db, but the version is saved in MySQL workbench. How to fix ?
+- 1:45  PM: **PR #364** Updated from branch `time-to-render`. (**#90**)
