@@ -13,3 +13,4 @@ title: Week 10
 - 4:30  PM: Getting a wierd error in logging requests to mixpanel. (**#**)
 - 5:00  PM: No need to send `sjid` or `pjid` to mixpanel.
 - 7:00  PM: How to get the `vm-name` from `Cloud.py` which is currrently executing the job ?
+- 9:30  PM: Done with the weekly review call with CTO and Manager.
