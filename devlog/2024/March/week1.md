@@ -4,6 +4,11 @@ title: Week 10
 ---
 
 # **March Week 1**
+## **Tuesday: March 5**
+- 9:20  AM: Signed in.
+- 11:00 AM: Implement proper logging in `emptycup.core.cloud`, need to associate the cloud node with the job being executed by the node.
+- 12:30 PM: **PR #372** Updated. Ready to merge in master.
+
 ## **Monday: March 4**
 - 9:30  AM: Signed In.
 - 11:00 AM: Submitted **PR #439** from `jobs-container`. (**#103**)
