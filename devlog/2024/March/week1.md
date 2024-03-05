@@ -8,6 +8,10 @@ title: Week 10
 - 9:20  AM: Signed in.
 - 11:00 AM: Implement proper logging in `emptycup.core.cloud`, need to associate the cloud node with the job being executed by the node.
 - 12:30 PM: **PR #372** Updated. Ready to merge in master.
+- 2:00  PM: Now cloning all the branches and then making a ZIP file. (**#320**)
+- 4:00  PM: Updated **PR #372**
+- 5:00  PM: Done with the code review call regarding 3 PRs with Ab sir.
+- 7:30  PM: Refactored all 3 PRs. (Re-requested code review). **PR #371, #372 and #439** Updated.
 
 ## **Monday: March 4**
 - 9:30  AM: Signed In.
