@@ -14,6 +14,7 @@ title: Week 10
 - 7:00  PM: Woodwork options are fetched from the API while initializing modularUI adaptar. (**#254**)
 - 8:00  PM: **PR #461** Submitted. How to set the handle position in `ExternalDrawer.js` for different handle types ? (**#254**)
 - 9:30  PM: **Fixed:** Customise door handles for external drawers. **PR #461** Updated.
+- 10:30 PM: **PR #462** Submitted. (**#354**)
 
 ## **Tuesday: March 5**
 - 9:20  AM: Signed in.
