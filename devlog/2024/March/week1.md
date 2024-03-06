@@ -6,9 +6,11 @@ title: Week 10
 # **March Week 1**
 ## **Wednesday: March 6**
 - 9:35  AM: Signed In.
-- 11:00 AM: Figuring out a way to set laminates for open sections. (**#**)
-- 12:00 PM: Setting the laminates but they're getting set again and again for the same section. How to fix this ? (**#**)
-- 1:00  PM: Worked on `Customise door handles for external drawers`. (**#**)
+- 11:00 AM: Figuring out a way to set laminates for open sections. (**#354**)
+- 12:00 PM: Setting the laminates but they're getting set again and again for the same section. How to fix this ? (**#354**)
+- 1:00  PM: Worked on `Customise door handles for external drawers`. (**#254**)
+- 4:00  PM: How do I enable `Handle Type` as a `menuItem` when the section is set to `External Drawer` ? (**#254**)
+- 5:30  PM: Able to set the `Handle Type` options for External Drawer but in 3D the position of the channel is not correct, what is causing this ? (**#254**)
 
 
 ## **Tuesday: March 5**
