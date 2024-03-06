@@ -12,7 +12,8 @@ title: Week 10
 - 4:00  PM: How do I enable `Handle Type` as a `menuItem` when the section is set to `External Drawer` ? (**#254**)
 - 5:30  PM: Able to set the `Handle Type` options for External Drawer but in 3D the position of the channel is not correct, what is causing this ? (**#254**)
 - 7:00  PM: Woodwork options are fetched from the API while initializing modularUI adaptar. (**#254**)
-- 8:00  PM: How to set the handle position in `ExternalDrawer.js` ? (**#254**)
+- 8:00  PM: **PR #461** Submitted. How to set the handle position in `ExternalDrawer.js` for different handle types ? (**#254**)
+- 9:30  PM: **Fixed:** Customise door handles for external drawers. **PR #461** Updated.
 
 ## **Tuesday: March 5**
 - 9:20  AM: Signed in.
