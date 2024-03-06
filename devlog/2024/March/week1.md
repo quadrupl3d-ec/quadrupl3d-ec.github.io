@@ -4,6 +4,13 @@ title: Week 10
 ---
 
 # **March Week 1**
+## **Wednesday: March 6**
+- 9:35  AM: Signed In.
+- 11:00 AM: Figuring out a way to set laminates for open sections. (**#**)
+- 12:00 PM: Setting the laminates but they're getting set again and again for the same section. How to fix this ? (**#**)
+- 1:00  PM: Worked on `Customise door handles for external drawers`. (**#**)
+
+
 ## **Tuesday: March 5**
 - 9:20  AM: Signed in.
 - 11:00 AM: Implement proper logging in `emptycup.core.cloud`, need to associate the cloud node with the job being executed by the node.
