@@ -15,6 +15,7 @@ title: Week 10
 - 8:00  PM: **PR #461** Submitted. How to set the handle position in `ExternalDrawer.js` for different handle types ? (**#254**)
 - 9:30  PM: **Fixed:** Customise door handles for external drawers. **PR #461** Updated.
 - 10:30 PM: **PR #462** Submitted. (**#354**)
+- 11:30 PM: **PR #371** Updated. Implemented logging in `backup.py`. <br> **PR #439** Updated. Giving names to service containers in order to filter them correctly.
 
 ## **Tuesday: March 5**
 - 9:20  AM: Signed in.
