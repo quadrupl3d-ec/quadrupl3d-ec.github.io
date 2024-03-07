@@ -8,7 +8,8 @@ title: Week 10
 - 9:15  AM: Signed In.
 - 10:30 AM: Found multiple glitches in ModularUI. Worked out `Razorpay Integration` (**#**)
 - 12:45 PM: Done with the code review call for 5 PR's. **Merged PR:** **#372 and #439 and #461**.
-- 3:00  PM: Fixed a logic bug in **PR #461** (Custom drawer handles)
+- 3:00  PM: Fixed a logic bug in **PR #461** (Custom drawer handles).
+- 4:00  PM: **PR #371** Updated. Why `woodwork-options.json` is not returning `drawer` options ?
 
 ## **Wednesday: March 6**
 - 9:35  AM: Signed In.
