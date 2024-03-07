@@ -11,6 +11,9 @@ title: Week 10
 - 3:00  PM: Fixed a logic bug in **PR #461** (Custom drawer handles).
 - 4:15  PM: **PR #371** Updated. Why `woodwork-options.json` is not returning `drawer` options ?
 - 4:45  PM: Still trying to figure out how to compute laminates for open sections.
+- 7:30  PM: Able to see laminates in 3D for open sections. Adding `getLaminates()` to `Section.js`.
+- 8:30  PM: Calling `getLaminates()` for all sections in `toJSON()` but that too is called a number of times, resulting into repetition of laminates.
+- 10:30 PM: Got an overview about how to integrate Razorpay for accepting payments. Currently, we can `createOrders()` and `verifyOrders()`. Need to set up routes in `APIClient.js` to capture and track the status of payments. (****)
 
 ## **Wednesday: March 6**
 - 9:35  AM: Signed In.
