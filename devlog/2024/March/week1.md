@@ -7,7 +7,10 @@ title: Week 10
 ## **Friday: March 8**
 - 9:45  AM: Signed In.
 - 11:00 AM: Tested razorpay integration in test mode. Need to test in live mode. (**#382**)
-- 11:30 AM: Now `toJSON()` return laminates for all sections along with box's laminates. How laminates are composed in the backend ? For eg., if box has laminates, then backend takes the `box._laminates` array from `json` and composes laminates for each laminate present in the array. How to do the same thing for `sectionLaminates` ? (**#354**) 
+- 11:30 AM: Now `toJSON()` return laminates for all sections along with box's laminates. How laminates are composed in the backend ? For eg., if box has laminates, then backend takes the `box._laminates` array from `json` and composes laminates for each laminate present in the array. How to do the same thing for `sectionLaminates` ? (**#354**)
+- 12:30 PM: No need to return `json.sectionLams`, append the laminates to `json.laminates`. (**#354**)
+- 1:45  PM: Done with the code review call for **PR #371**
+- 3:00  PM: **PR #462** Updated. Open section now have laminates. (**#354**)
 
 ## **Thursday: March 7**
 - 9:15  AM: Signed In.
