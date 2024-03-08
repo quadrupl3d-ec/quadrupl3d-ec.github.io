@@ -4,6 +4,11 @@ title: Week 10
 ---
 
 # **March Week 1**
+## **Friday: March 8**
+- 9:45  AM: Signed In.
+- 11:00 AM: Tested razorpay integration in test mode. Need to test in live mode. (**#382**)
+- 11:30 AM: Now `toJSON()` return laminates for all sections along with box's laminates. How laminates are composed in the backend ? For eg., if box has laminates, then backend takes the `box._laminates` array from `json` and composes laminates for each laminate present in the array. How to do the same thing for `sectionLaminates` ? (**#354**) 
+
 ## **Thursday: March 7**
 - 9:15  AM: Signed In.
 - 10:30 AM: Found multiple glitches in ModularUI. Worked out `Razorpay Integration` (**#**)
