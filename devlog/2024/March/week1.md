@@ -14,6 +14,8 @@ title: Week 10
 - 3:30  PM: Razorpay integration tested in live mode.
 - 5:30  PM: Input value is set to a string while setting the number of credits to purchase
 - 6:00  PM: Done with the code review call for **PR 462**. **Merged**.
+- 7:30  PM: Done with a nasty bug. Sveltestrap's <Input> component returns a string even if setting `type='Number'`. (**#**)
+- 8:00  PM: GET Request to `/projects/10/woodwork-options` was cached. Disabled caching in dev environment ensures that the drawers options are available when `handleType` is set to `handle`. **PR #254** Ready for merge.
 
 ## **Thursday: March 7**
 - 9:15  AM: Signed In.
