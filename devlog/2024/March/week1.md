@@ -11,6 +11,9 @@ title: Week 10
 - 12:30 PM: No need to return `json.sectionLams`, append the laminates to `json.laminates`. (**#354**)
 - 1:45  PM: Done with the code review call for **PR #371**
 - 3:00  PM: **PR #462** Updated. Open section now have laminates. (**#354**)
+- 3:30  PM: Razorpay integration tested in live mode.
+- 5:30  PM: Input value is set to a string while setting the number of credits to purchase
+- 6:00  PM: Done with the code review call for **PR 462**. **Merged**.
 
 ## **Thursday: March 7**
 - 9:15  AM: Signed In.
