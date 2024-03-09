@@ -9,6 +9,8 @@ title: Week 10
 - 10:00 AM: Setting the value of `key_id` in `Credits.js` based on `isProd()` function. Also initializing the value of variable `quantity = 0` as `parseInt('0')` will be `NaN`. (**#382**)
 - 12:00 PM: Able to toggle the visibility of all the door meshes in a woodwork on right clicking in 3D. Shall we also hide the `External Drawer` mesh ? (**#392**)
 - 12:50 PM: Refactored the code. Submitted **PR #471**. (**#392**)
+- 2:00  PM: Blocked on `Move furnishings inside woodworks in 3D` as no furnishing is available in `ModularUI`.
+- 2:45  PM: Opened the furnishing clone issue, got access to emptycup3d's mixpanel projects. Setting `info=None` in the `log` module as some events only send the `id, data` to `track(id, data, info)`. (**#481**).
 
 
 ## **Friday: March 8**
