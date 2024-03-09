@@ -12,7 +12,7 @@ title: Week 10
 - 2:00  PM: Blocked on `Move furnishings inside woodworks in 3D` as no furnishing is available in `ModularUI`.
 - 2:45  PM: Opened the furnishing clone issue, got access to emptycup3d's mixpanel projects. Setting `info=None` in the `log` module as some events only send the `id, data` to `track(id, data, info)`. (**#481**).
 - 4:00  PM: **PR #482** Submitted. For enabling `Live UV scaling`. The fix is ugly!
-
+- 4:45  PM: Opened issue **#483**.
 
 ## **Friday: March 8**
 - 9:45  AM: Signed In.
