@@ -4,6 +4,12 @@ title: Week 10
 ---
 
 # **March Week 1**
+## **Monday: March 9**
+- 9:30  AM: Started working on `Show woodwork internals in 3D`. (**#392**)
+- 10:00 AM: Setting the value of `key_id` in `Credits.js` based on `isProd()` function. Also initializing the value of variable `quantity = 0` as `parseInt('0')` will be `NaN`. (**#382**)
+- 12:00 PM: Able to toggle the visibility of all the door meshes in a woodwork on right clicking in 3D. Shall we also hide the `External Drawer` mesh ? (**#392**)
+
+
 ## **Friday: March 8**
 - 9:45  AM: Signed In.
 - 11:00 AM: Tested razorpay integration in test mode. Need to test in live mode. (**#382**)
@@ -15,7 +21,7 @@ title: Week 10
 - 5:30  PM: Input value is set to a string while setting the number of credits to purchase
 - 6:00  PM: Done with the code review call for **PR 462**. **Merged**.
 - 7:30  PM: Done with a nasty bug. Sveltestrap's <Input> component returns a string even if setting `type='Number'`. (**#**)
-- 8:00  PM: GET Request to `/projects/10/woodwork-options` was cached. Disabled caching in dev environment ensures that the drawers options are available when `handleType` is set to `handle`. **PR #254** Ready for merge.
+- 9:00  PM: GET Request to `/projects/10/woodwork-options` was cached. Disabled caching in dev environment ensures that the drawers options are available when `handleType` is set to `handle`. **PR #254** Ready for merge.
 
 ## **Thursday: March 7**
 - 9:15  AM: Signed In.
