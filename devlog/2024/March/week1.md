@@ -13,6 +13,7 @@ title: Week 10
 - 2:45  PM: Opened the furnishing clone issue, got access to emptycup3d's mixpanel projects. Setting `info=None` in the `log` module as some events only send the `id, data` to `track(id, data, info)`. (**#481**).
 - 4:00  PM: **PR #482** Submitted. For enabling `Live UV scaling`. The fix is ugly!
 - 4:45  PM: Opened issue **#483**.
+- 8:30  PM: Documented how renders work in `draw.io`. (**#**)
 
 ## **Friday: March 8**
 - 9:45  AM: Signed In.
