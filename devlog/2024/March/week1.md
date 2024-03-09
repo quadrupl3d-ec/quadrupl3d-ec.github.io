@@ -4,7 +4,7 @@ title: Week 10
 ---
 
 # **March Week 1**
-## **Monday: March 9**
+## **Saturday: March 9**
 - 9:30  AM: Started working on `Show woodwork internals in 3D`. (**#392**)
 - 10:00 AM: Setting the value of `key_id` in `Credits.js` based on `isProd()` function. Also initializing the value of variable `quantity = 0` as `parseInt('0')` will be `NaN`. (**#382**)
 - 12:00 PM: Able to toggle the visibility of all the door meshes in a woodwork on right clicking in 3D. Shall we also hide the `External Drawer` mesh ? (**#392**)
