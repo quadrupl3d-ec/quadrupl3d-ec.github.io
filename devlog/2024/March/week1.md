@@ -4,11 +4,17 @@ title: Week 10
 ---
 
 # **March Week 1**
+## **Sunday: March 10**
+- 9:30  AM: Started writing in `renders.md` and made some final changes in renders.drawio.png.
+- 11:00 AM: Submitted **PR #487** from branch `render-docs`.
+- 2:30  PM: Able to set the tags on Azure resources using Python SDK for Azure.
+- 4:00  PM: When render-manager starts a node, it sets the tags to that node successfully. But how to get VM name in `jobs.py` ?
+
 ## **Saturday: March 9**
 - 9:30  AM: Started working on `Show woodwork internals in 3D`. (**#392**)
 - 10:00 AM: Setting the value of `key_id` in `Credits.js` based on `isProd()` function. Also initializing the value of variable `quantity = 0` as `parseInt('0')` will be `NaN`. (**#382**)
 - 12:00 PM: Able to toggle the visibility of all the door meshes in a woodwork on right clicking in 3D. Shall we also hide the `External Drawer` mesh ? (**#392**)
-- 12:50 PM: Refactored the code. Submitted **PR #471**. (**#392**)
+- 12:50 PM: Refactored the code. Submitted **PR #477**. (**#392**)
 - 2:00  PM: Blocked on `Move furnishings inside woodworks in 3D` as no furnishing is available in `ModularUI`.
 - 2:45  PM: Opened the furnishing clone issue, got access to emptycup3d's mixpanel projects. Setting `info=None` in the `log` module as some events only send the `id, data` to `track(id, data, info)`. (**#481**).
 - 4:00  PM: **PR #482** Submitted. For enabling `Live UV scaling`. The fix is ugly!
