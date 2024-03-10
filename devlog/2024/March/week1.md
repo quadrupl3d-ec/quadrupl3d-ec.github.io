@@ -8,7 +8,7 @@ title: Week 10
 - 9:30  AM: Started writing in `renders.md` and made some final changes in renders.drawio.png.
 - 11:00 AM: Submitted **PR #487** from branch `render-docs`.
 - 2:30  PM: Able to set the tags on Azure resources using Python SDK for Azure.
-- 4:00  PM: When render-manager starts a node, it sets the tags to that node successfully. But how to get VM name in `jobs.py` ?
+- 4:00  PM: **PR #488** Submitted for review. When render-manager starts a node, it sets the tags to that node successfully. But how to get VM name in `jobs.py` ? (**#483**)
 
 ## **Saturday: March 9**
 - 9:30  AM: Started working on `Show woodwork internals in 3D`. (**#392**)
