@@ -9,6 +9,7 @@ title: Week 10
 - 11:00 AM: Submitted **PR #487** from branch `render-docs`.
 - 2:30  PM: Able to set the tags on Azure resources using Python SDK for Azure.
 - 4:00  PM: **PR #488** Submitted for review. When render-manager starts a node, it sets the tags to that node successfully. But how to get VM name in `jobs.py` ? (**#483**)
+- 5:00  PM: Now we have a problem. If we tag a render-worker with a `job.id` and if the worker picks the next job, how will we be able to set the tags corresponding to new job ? We have to figure out a way of accessing the `worker` node from the callback function that executes whenever a new job is picked. (**#483**)
 
 ## **Saturday: March 9**
 - 9:30  AM: Started working on `Show woodwork internals in 3D`. (**#392**)
