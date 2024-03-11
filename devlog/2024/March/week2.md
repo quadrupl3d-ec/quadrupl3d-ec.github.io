@@ -13,3 +13,5 @@ title: Week 11
 - 2:00  PM: Figured out why decor items are not loaded in `Modular UI`.
 - 2:30  PM: Able to load the decor items in `Modular UI`.
 - 4:00  PM: Figured out why we're not able to save the woodwork if a decor item is added to it. This is happening because `decor.json` is empty i.e blob storage is not returning the brick if the component type is `decor`. (**#448**)
+- 5:00  PM: Figuring out a way to verify if the brick's blob store contains appropriate bricks for component that are of type `decor`. Additionally, Blocked on unshaped, unconfirmed, not-outlined issues.
+- 7:00  PM: Updated `log-vmname` **PR** and Posted the error stack trace to AB sir. (**#448**)
