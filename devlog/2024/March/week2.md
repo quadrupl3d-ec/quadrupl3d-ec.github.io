@@ -4,6 +4,11 @@ title: Week 11
 ---
 
 # **March Week 2**
+## **Friday: March 15**
+- 10:00 AM: Signed In.
+- 1:00  PM: Limiting the `refkey` column to 32 characters. Preventing woodwork delete on partition deletion. (**#340**)
+- 2:00  PM: **PR #514** and **PR #517** Merged in master.
+
 ## **Monday: March 11**
 - 9:30  AM: Signed In.
 - 10:45 AM: Updated **PR #488**. Review requested. (**#483**)
@@ -15,3 +20,4 @@ title: Week 11
 - 4:00  PM: Figured out why we're not able to save the woodwork if a decor item is added to it. This is happening because `decor.json` is empty i.e blob storage is not returning the brick if the component type is `decor`. (**#448**)
 - 5:00  PM: Figuring out a way to verify if the brick's blob store contains appropriate bricks for component that are of type `decor`. Additionally, Blocked on unshaped, unconfirmed, not-outlined issues.
 - 7:00  PM: Updated `log-vmname` **PR** and Posted the error stack trace to AB sir. (**#448**)
+- 9:15  PM: Done with the manager and CTO with the weekly review call.
