@@ -8,6 +8,8 @@ title: Week 11
 - 10:00 AM: Signed In.
 - 1:00  PM: Limiting the `refkey` column to 32 characters. Preventing woodwork delete on partition deletion. (**#340**)
 - 2:00  PM: **PR #514** and **PR #517** Merged in `beta`.
+- 4:00  PM: Confused about storages!
+- 7:30  PM: Submitted **PR #522** to branch `release`. (**#340**)
 
 ## **Monday: March 11**
 - 9:30  AM: Signed In.
