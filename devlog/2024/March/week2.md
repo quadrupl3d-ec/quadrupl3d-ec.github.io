@@ -4,6 +4,13 @@ title: Week 11
 ---
 
 # **March Week 2**
+## **Saturday: March 16**
+- 9:30  AM: Signed In.
+- 11:00 AM: Done with debugging call with sir.
+- 2:00  PM: **Fixed:** Able to save a woodwork which has a decor item in it. (**#448**)
+- 4:00  PM: Able to see the woodwork furnishings in 3D but a lot of necessary arguments are missing in `comp` which are needed by `_loadFurnishing(scene, component, woodwork)` through `component`. (**#393**)
+- 5:40  PM: **Fixed:** Woodwork furnishings not visible in 3D. (**#393**)
+
 ## **Friday: March 15**
 - 10:00 AM: Signed In.
 - 1:00  PM: Limiting the `refkey` column to 32 characters. Preventing woodwork delete on partition deletion. (**#340**)
