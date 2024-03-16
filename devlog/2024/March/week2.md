@@ -10,7 +10,8 @@ title: Week 11
 - 2:00  PM: **Fixed:** Able to save a woodwork which has a decor item in it. (**#448**)
 - 4:00  PM: Able to see the woodwork furnishings in 3D but a lot of necessary arguments are missing in `comp` which are needed by `_loadFurnishing(scene, component, woodwork)` through `component`. (**#393**)
 - 5:40  PM: **Fixed:** Woodwork furnishings not visible in 3D. (**#393**)
-- 6:30  PM: **PR #529** Updated from `save-woodwork` to `release`.
+- 6:30  PM: **PR #529** Updated from `save-woodwork` to `release`, opened issue **#531**.
+- 9:00  PM: Why I can't just update the woodwork definition ?
 
 ## **Friday: March 15**
 - 10:00 AM: Signed In.
