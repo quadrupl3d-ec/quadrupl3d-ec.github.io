@@ -4,6 +4,10 @@ title: Week 11
 ---
 
 # **March Week 2**
+## **Sunday: March 17**
+- 9:40  AM: Signed In.
+- 11:45 AM: **Implemented:** Move furnishings inside woodworks in 3D.**PR #538** submitted. (**#393**)
+
 ## **Saturday: March 16**
 - 9:30  AM: Signed In.
 - 11:00 AM: Done with debugging call with sir.
