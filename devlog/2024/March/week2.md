@@ -7,7 +7,11 @@ title: Week 11
 ## **Sunday: March 17**
 - 9:40  AM: Signed In.
 - 11:45 AM: **Implemented:** Move furnishings inside woodworks in 3D.**PR #538** submitted. (**#393**)
-
+- 12:45 PM: Trying to figure out why the flooplan is not getting updated on furnishing displace. `saveLayout()` not being called on switching from `3D` to `2D`.
+- 2:00  PM: Spent some time on exploring the furnishing upload for file upload vulnerabilities.
+- 4:00  PM: Remote code execution in catalogue workers. Critical security vulnerability compromising `catalogue workers`.
+- 5:00  PM: **PR #543** Submitted from `file-upload-rce`. (**#541**)
+ 
 ## **Saturday: March 16**
 - 9:30  AM: Signed In.
 - 11:00 AM: Done with debugging call with sir.
