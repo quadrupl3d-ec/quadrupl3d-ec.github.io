@@ -13,3 +13,6 @@ Right now, the patch could be - If `r.status` is `finished`, then only set the i
 - 1:15  PM: **Fixed:** Render thumbnails not showing up in the UI. **PR #552** Submitted to release.
 - 3:30  PM: **Fixed:** Woodwork deleted if delete key is pressed on a selected partition after mousemove. **PR #554** Submitted.
 - 5:00  PM: **Fixed:** When moving a furnishing on the axis, it was interfering with other furnishing objects in the way, resulting in glitches.
+- 5:30  PM: Worked out new glitches in modular UI.
+- 7:00  PM: Done with a debugging call with Ab sir.
+- 9:00  PM: Done setting up render worker again. I mistakenly reset the beta render worker.
