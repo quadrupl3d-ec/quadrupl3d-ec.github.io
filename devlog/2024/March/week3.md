@@ -12,3 +12,4 @@ This is returned by to_json() method of the Render class in renders/core.py. The
 Right now, the patch could be - If `r.status` is `finished`, then only set the image source to `r.thumbnail`
 - 1:15  PM: **Fixed:** Render thumbnails not showing up in the UI. **PR #552** Submitted to release.
 - 3:30  PM: **Fixed:** Woodwork deleted if delete key is pressed on a selected partition after mousemove. **PR #554** Submitted.
+- 5:00  PM: **Fixed:** When moving a furnishing on the axis, it was interfering with other furnishing objects in the way, resulting in glitches.
