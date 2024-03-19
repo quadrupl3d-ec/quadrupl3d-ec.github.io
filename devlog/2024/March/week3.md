@@ -4,6 +4,13 @@ title: Week 12
 ---
 
 # **March Week 3**
+## **Monday: March 19**
+- 9:40  AM: Signed IN.
+- 10:00 AM: `ec renders monitor` working now.
+- 11:00 AM: Setting the internal section to `Internal Drawer` errors out, maybe because we're trying to add a fabric object to canvas ? The error says - `c.getObject()` is not a function.
+- 12:00 PM: **PR #559** Submitted. Merged in **release**.
+- 1:45  PM: Got renders done in dev environment's HOST. Now need to get renders in Jobs container. The lighting seems dull in daytime renders. Need to import the `.blend` file in blender and do some tweaks to improve daylight rendering.
+
 ## **Monday: March 18**
 - 9:40  AM: Signed In.
 - 11:00 AM: Testing renders on `beta.emptycup3d.com`.
@@ -15,4 +22,4 @@ Right now, the patch could be - If `r.status` is `finished`, then only set the i
 - 5:00  PM: **Fixed:** When moving a furnishing on the axis, it was interfering with other furnishing objects in the way, resulting in glitches.
 - 5:30  PM: Worked out new glitches in modular UI.
 - 7:00  PM: Done with a debugging call with Ab sir.
-- 9:00  PM: Done setting up render worker again. I mistakenly reset the beta render worker.
+- 9:00  PM: Done setting up render worker again. I've mistakenly reset the beta render worker.
