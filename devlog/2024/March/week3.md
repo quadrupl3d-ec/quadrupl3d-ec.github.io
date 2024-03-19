@@ -4,7 +4,7 @@ title: Week 12
 ---
 
 # **March Week 3**
-## **Monday: March 19**
+## **Tuesday: March 19**
 - 9:40  AM: Signed IN.
 - 10:00 AM: `ec renders monitor` working now.
 - 11:00 AM: Setting the internal section to `Internal Drawer` errors out, maybe because we're trying to add a fabric object to canvas ? The error says - `c.getObject()` is not a function.
