@@ -10,6 +10,10 @@ title: Week 12
 - 11:00 AM: Setting the internal section to `Internal Drawer` errors out, maybe because we're trying to add a fabric object to canvas ? The error says - `c.getObject()` is not a function.
 - 12:00 PM: **PR #559** Submitted. Merged in **release**.
 - 1:45  PM: Got renders done in dev environment's HOST and in `Jobs` container as well. The lighting seems dull in daytime renders. Need to import the `.blend` file in blender and do some tweaks to improve daylight rendering.
+- 4:00  PM: Why the material that corresponds to a woodwork is not visible/applied in the render scene ? <br>   Done with a debugging call with Ab sir. 
+- 4:45  PM: Able to log the render request and see the theme dictionary and components in the jobs container.
+- 7:00  PM: Getting the mesh area through `sum(p.area for p in o.data.polygons)`, but the model used for rendering in blender and the model used in 3D are not same. This patch will work for woodwork meshes but not for furnishing meshes. What's the fix to this problem ?
+- 9:45  PM: **PR #567** Submitted.
 
 ## **Monday: March 18**
 - 9:40  AM: Signed In.
