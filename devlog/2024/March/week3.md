@@ -9,7 +9,7 @@ title: Week 12
 - 10:00 AM: `ec renders monitor` working now.
 - 11:00 AM: Setting the internal section to `Internal Drawer` errors out, maybe because we're trying to add a fabric object to canvas ? The error says - `c.getObject()` is not a function.
 - 12:00 PM: **PR #559** Submitted. Merged in **release**.
-- 1:45  PM: Got renders done in dev environment's HOST. Now need to get renders in Jobs container. The lighting seems dull in daytime renders. Need to import the `.blend` file in blender and do some tweaks to improve daylight rendering.
+- 1:45  PM: Got renders done in dev environment's HOST and in `Jobs` container as well. The lighting seems dull in daytime renders. Need to import the `.blend` file in blender and do some tweaks to improve daylight rendering.
 
 ## **Monday: March 18**
 - 9:40  AM: Signed In.
