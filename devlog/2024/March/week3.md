@@ -7,6 +7,11 @@ title: Week 12
 ## **Wednesday: March 20**
 - 9:30  AM: Signed IN.
 - 10:45 AM: **Fixed** missing slot keys corresponding to windows, walls etc. And the jobs container is still not resilient to errors.
+- 12:00 PM: Not able to get renders sometimes. And night renders don't have sufficient illumination.
+- 1:00  PM: Why `model.json` contains - `Blob not found` sometimes. This wasted a lot of time as this will result into `JSON decode error.`
+- 3:00  PM: Got night renders for all type of presets - `Low`, `High`, `Spot`, `Panel`, `Medium`.
+- 3:30  PM: **Fixed:** Render thumbnail doesn't have options when status is 'Started'. (**#129**).
+- 4:00  PM: Why we're not able to set the section to `internal-drawer` ? Why the shelf section is still rendered in external sections ?
 
 ## **Tuesday: March 19**
 - 9:40  AM: Signed IN.
