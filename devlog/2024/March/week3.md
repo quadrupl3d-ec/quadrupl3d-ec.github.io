@@ -12,6 +12,10 @@ title: Week 12
 - 3:00  PM: Got night renders for all type of presets - `Low`, `High`, `Spot`, `Panel`, `Medium`.
 - 3:30  PM: **Fixed:** Render thumbnail doesn't have options when status is 'Started'. (**#129**).
 - 4:00  PM: Why we're not able to set the section to `internal-drawer` ? Why the shelf section is still rendered in external sections ?
+- 7:15  PM: When I try to set the section to internal-drawer, the `render()` method is called, it calls `_renderTextureFill()` from its parent class.
+This renderTextureFill expects an image source so that it can use that image's texture and scale it to the size of section. But the image src is undefined,
+causing error. Why all the functions inside render() are erroring out ?
+- 8:00  PM: What is the difference between `new fabric.Rect({})` and `CanvasObject.create({})` ?
 
 ## **Tuesday: March 19**
 - 9:40  AM: Signed IN.
