@@ -4,6 +4,10 @@ title: Week 12
 ---
 
 # **March Week 3**
+## **Wednesday: March 20**
+- 9:30  AM: Signed IN.
+- 10:45 AM: **Fixed** missing slot keys corresponding to windows, walls etc. And the jobs container is still not resilient to errors.
+
 ## **Tuesday: March 19**
 - 9:40  AM: Signed IN.
 - 10:00 AM: `ec renders monitor` working now.
