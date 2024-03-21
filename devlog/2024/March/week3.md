@@ -9,6 +9,7 @@ title: Week 12
 - 11:00 AM: **PR #572** Submitted. Contains minor fixes for renders.
 - 12:00 PM: Installed all the graphics drivers for AMD RADEON RX 5600M. Now I can't boot into ubuntu. Ubuntu is not compatible with amd graphics drivers. Switching to Windows Subsystem for linux.
 - 2:15  PM: Deployed the web application on docker through WSL Ubuntu-22.04.03. Need some sql dumps to set up local database.
+- 4:30  PM: Finished setting up everything on WSL. Blender2.79 GUI is running super smooth in windows.
 
 ## **Wednesday: March 20**
 - 9:30  AM: Signed IN.
