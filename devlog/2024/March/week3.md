@@ -4,6 +4,12 @@ title: Week 12
 ---
 
 # **March Week 3**
+## **Thursday: March 21**
+- 9:35  AM: Signed IN.
+- 11:00 AM: **PR #572** Submitted. Contains minor fixes for renders.
+- 12:00 PM: Installed all the graphics drivers for AMD RADEON RX 5600M. Now I can't boot into ubuntu. Ubuntu is not compatible with amd graphics drivers. Switching to Windows Subsystem for linux.
+- 2:15  PM: Deployed the web application on docker through WSL Ubuntu-22.04.03. Need some sql dumps to set up local database.
+
 ## **Wednesday: March 20**
 - 9:30  AM: Signed IN.
 - 10:45 AM: **Fixed** missing slot keys corresponding to windows, walls etc. And the jobs container is still not resilient to errors.
