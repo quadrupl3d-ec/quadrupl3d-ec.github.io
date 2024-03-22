@@ -4,6 +4,10 @@ title: Week 12
 ---
 
 # **March Week 3**
+## **Friday: March 22**
+- 9:35  AM: Signed IN.
+- 
+
 ## **Thursday: March 21**
 - 9:35  AM: Signed IN.
 - 11:00 AM: **PR #572** Submitted. Contains minor fixes for renders.
@@ -11,6 +15,8 @@ title: Week 12
 - 2:15  PM: Deployed the web application on docker through WSL Ubuntu-22.04.03. Need some sql dumps to set up local database.
 - 4:30  PM: Finished setting up everything on WSL. Blender2.79 GUI is running super smooth in windows.
 - 5:30  PM: Trying to use the dedicated GPU for any GUI applications running on WSL through X server on windows.
+- 7:00  PM: Using dedicated GPU to get a 1080p render in windows. Dedicated GPU takes ~12min. to get a 1080p render.
+- 9:30  PM: Using integrated GPU to get renders.
 
 ## **Wednesday: March 20**
 - 9:30  AM: Signed IN.
