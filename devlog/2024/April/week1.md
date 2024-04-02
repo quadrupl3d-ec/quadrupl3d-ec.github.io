@@ -8,7 +8,9 @@ title: Week 14
 - 9:30  AM: Signed In.
 - 10:00 AM: Understood the request flow for updating/submitting GSTIN details.
 - 12:00 PM: Tested the API Endpoint for SQL Injections to `/update_gst`. Used SQL map for almost all type of basic injection attacks. Used burp suite for manual testing through different payloads.
-
+- 2:30  PM: Documented mitigation techniques for SQL Injection attacks. **PR 608** Submitted.
+- 3:30  PM: Joined the meet for understanding how to debug renders in production.
+- 6:20  PM: Done with the meeting. Now I'm able to SSH into production and debug render jobs.
 ## **Monday: April 1**
 - 9:20  AM: Signed In.
 - 10:00 AM: Trying to fix: `Scale and move woodworks not working in Modular after undo.` No luck.
