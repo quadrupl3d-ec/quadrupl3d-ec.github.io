@@ -4,6 +4,11 @@ title: Week 14
 ---
 
 # **April Week 1**
+## **Tuesday: April 2**
+- 9:30  AM: Signed In.
+- 10:00 AM: Understood the request flow for updating/submitting GSTIN details.
+- 12:00 PM: Tested the API Endpoint for SQL Injections to `/update_gst`. Used SQL map for almost all type of basic injection attacks. Used burp suite for manual testing through different payloads.
+
 ## **Monday: April 1**
 - 9:20  AM: Signed In.
 - 10:00 AM: Trying to fix: `Scale and move woodworks not working in Modular after undo.` No luck.
@@ -13,3 +18,4 @@ title: Week 14
 - 5:30  PM: When a woodwork is rotated in the layout planner and then `_loadWoodworkSide()` is called in js/Walkin.js. This will use the angle from comp.orientation and pass it to rotateY(ww, comp.orientation). The rotateY function is in SceneUtils in helpers.js. This function will create a new rotation Matrix and will multiply it to the woodwork's matrix. Now this rotation is with respect to the woodwork, I tried some solutions from the internet to make the rotation absolute to the scene, but couldn't fix this!
 - 7:00  PM: How to fix this????
 - 8:30  PM: Submitted **PR 605**. **Fixed:** Shift Pointer is not working correctly for woodwork furnishings in some cases.
+- 9:00  PM: onClick is updating the `moveby` coordinates if it is a woodwork furnishing object. Updated **PR 605**.
