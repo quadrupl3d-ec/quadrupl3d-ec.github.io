@@ -4,6 +4,15 @@ title: Week 14
 ---
 
 # **April Week 1**
+## **Wednesday: April 3**
+- 9:35  AM: Signed In.
+- 11:00 AM: Day light renders having almost 0 illumination intensity. Starting setting up branch `beta-render-worker`, setting up aliases, logging into Azure using CLI with credentials from `production.sh.rc`
+- 12:00 PM: Starting deploying the beta container locally (local frontend + cloud db and redis)
+- 2:00  PM: Deployed beta locally, using beta API at 9000. 
+- 3:00  PM: Got the `.blend` file from the beta render worker.  
+- 4:00  PM: Rendered a room with no fittings, The ambient occlusion in day time renders was set to 0.15 but there is a setting that prevents `bpy` to apply the ambient occulusion lights that we're setting in the code.
+- 5:00  PM: As we increase the ao factor, the illumiation of indirect lights increases. Secondly, why blender 3.2.2 is not running in the dev environment?
+  
 ## **Tuesday: April 2**
 - 9:30  AM: Signed In.
 - 10:00 AM: Understood the request flow for updating/submitting GSTIN details.
@@ -11,6 +20,8 @@ title: Week 14
 - 2:30  PM: Documented mitigation techniques for SQL Injection attacks. **PR 608** Submitted.
 - 3:30  PM: Joined the meet for understanding how to debug renders in production.
 - 6:20  PM: Done with the meeting. Now I'm able to SSH into production and debug render jobs.
+- 9:00  PM: Learned about directories and file permissions in linux.
+
 ## **Monday: April 1**
 - 9:20  AM: Signed In.
 - 10:00 AM: Trying to fix: `Scale and move woodworks not working in Modular after undo.` No luck.
