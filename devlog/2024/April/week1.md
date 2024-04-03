@@ -12,6 +12,8 @@ title: Week 14
 - 3:00  PM: Got the `.blend` file from the beta render worker.  
 - 4:00  PM: Rendered a room with no fittings, The ambient occlusion in day time renders was set to 0.15 but there is a setting that prevents `bpy` to apply the ambient occulusion lights that we're setting in the code.
 - 5:00  PM: As we increase the ao factor, the illumiation of indirect lights increases. Secondly, why blender 3.2.2 is not running in the dev environment?
+- 7:30  PM: Making use of GPU to get renders.
+- 9:00  PM: Submitted **PR #613**. Makes day light renders to work without touching ao or any other existing settings. Upgraded blender to 3.2.2 in dev environment. Syncing with production.
   
 ## **Tuesday: April 2**
 - 9:30  AM: Signed In.
