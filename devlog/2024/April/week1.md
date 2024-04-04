@@ -8,6 +8,11 @@ title: Week 14
 - 9:35  AM: Signed In.
 - 1:00  PM: Submitted **PR #615**. Triggering a keypress if trying to place a component after pressing M.
 - 1:45  PM: Updated **PR #615**. Correctly remove the event listener. Imported shortcuts from `../../Modular.js`
+- 3:00  PM: No need to export the `ModularShortcuts` class, instead, another `mousedown` event listener can be attached to the document on pick. The handler of mousedown event simply drops the component.
+- 5:00  PM: Use the arrow functions to retain the `this` from the surrounding context. **PR #615** Updated.
+- 8:00  PM:
+- 10:00 PM:
+  
 ## **Wednesday: April 3**
 - 9:35  AM: Signed In.
 - 11:00 AM: Day light renders having almost 0 illumination intensity. Starting setting up branch `beta-render-worker`, setting up aliases, logging into Azure using CLI with credentials from `production.sh.rc`
