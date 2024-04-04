@@ -4,6 +4,10 @@ title: Week 14
 ---
 
 # **April Week 1**
+## **Thursday: April 4**
+- 9:35  AM: Signed In.
+- 1:00  PM: Submitted **PR #615**. Triggering a keypress if trying to place a component after pressing M.
+- 1:45  PM: Updated **PR #615**. Correctly remove the event listener. Imported shortcuts from `../../Modular.js`
 ## **Wednesday: April 3**
 - 9:35  AM: Signed In.
 - 11:00 AM: Day light renders having almost 0 illumination intensity. Starting setting up branch `beta-render-worker`, setting up aliases, logging into Azure using CLI with credentials from `production.sh.rc`
