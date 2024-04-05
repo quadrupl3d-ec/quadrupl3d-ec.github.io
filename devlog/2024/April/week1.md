@@ -7,7 +7,7 @@ title: Week 14
 ## **Thursday: April 5**
 - 9:35  AM: Signed In.
 - 11:00 AM: Using `comp=undefined` if the component is not passed while registering the action to the undo stack. Still not able to figure out why `onDrop()` isn't working after `undo`! Where the heck is the bug hiding!!!!
-- 
+- 2:00  PM: Done with the debugging call with sir.
 
 ## **Thursday: April 4**
 - 9:35  AM: Signed In.
