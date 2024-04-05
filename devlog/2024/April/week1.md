@@ -4,14 +4,19 @@ title: Week 14
 ---
 
 # **April Week 1**
+## **Thursday: April 5**
+- 9:35  AM: Signed In.
+- 11:00 AM: Using `comp=undefined` if the component is not passed while registering the action to the undo stack. Still not able to figure out why `onDrop()` isn't working after `undo`! Where the heck is the bug hiding!!!!
+- 
+
 ## **Thursday: April 4**
 - 9:35  AM: Signed In.
 - 1:00  PM: Submitted **PR #615**. Triggering a keypress if trying to place a component after pressing M.
 - 1:45  PM: Updated **PR #615**. Correctly remove the event listener. Imported shortcuts from `../../Modular.js`
 - 3:00  PM: No need to export the `ModularShortcuts` class, instead, another `mousedown` event listener can be attached to the document on pick. The handler of mousedown event simply drops the component.
 - 5:00  PM: Use the arrow functions to retain the `this` from the surrounding context. **PR #615** Updated.
-- 8:00  PM:
-- 10:00 PM:
+- 8:00  PM: Figured out why the `_drawOutline()` creates the blue bounding box at the wrong coordinates. This is happening because we're not setting the component's left and bottom while calling the `setState()` through `CTRL + Z`
+- 10:00 PM: **Fixed:** _drawOutline() not working correctly.
   
 ## **Wednesday: April 3**
 - 9:35  AM: Signed In.
