@@ -11,3 +11,4 @@ title: Week 15
 - 1:00  PM: Able to move the mouse freely. Pressing `Shift + ~` together to activate fly mode. Using `W S A D` to move the camera as if in a game. Can use the mouse scroll to increase/decrease the camera move speed.
 - 4:30  PM: Done with the `tuning-renders` call with Ab sir.
 - 5:00  PM: **Fixed: **Not able to scale or move a component in modularUI after undo.
+- 7:30  PM: Tuning renders with different parameters through blender GUI.
