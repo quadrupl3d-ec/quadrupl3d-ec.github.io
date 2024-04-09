@@ -9,6 +9,9 @@ title: Week 15
 - 11:00 AM: Got the `.blend` file from beta-render-worker for `76-gbr`. Testing for daylighting in case of less opening area.
 - 12:30 PM: Shortlisted daylight rendering parameters for making the render more realistic, visually appealing, brighter. 
 - 2:00  PM: Got the `.blend` file of `76-dining` from render worker. Tuning the filtered parameters.
+- 3:30  PM: Finalized parameters for daylight renders.
+- 5:45  PM: Submitted **PR #636**. **Fixed:** Improve day light renders.
+- 7:40  PM: **PR #637** Submitted. **Fixed:** Remember channel selection.
 
 ## **Monday: April 8**
 - 9:30  AM: Signed In.
