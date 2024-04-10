@@ -4,6 +4,14 @@ title: Week 15
 ---
 
 # **April Week 2**
+## **Wednesday: April 10**
+- 9:30  AM: Signed In.
+- 11:00 AM: Updated **PR #636**. Section already has the `getHandleType()` method.  
+- 1:10  PM: Done with the meeting about `Implemented: Apply channel selection to entire woodwork`.
+- 3:00  PM: Clearing up the stale, coming up with new set of points on how to implement `Apply channel selection to entire woodwork`
+- 6:00  PM: Able to set the `handleType` to all the sections in the box. Updating **PR #643**.
+- 8:00  PM: **PR #643** Submitted and merged into `release`.
+
 ## **Tuesday: April 9**
 - 9:30  AM: Signed In.
 - 11:00 AM: Got the `.blend` file from beta-render-worker for `76-gbr`. Testing for daylighting in case of less opening area.
