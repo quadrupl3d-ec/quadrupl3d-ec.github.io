@@ -9,7 +9,9 @@ title: Week 15
 - 12:00 PM: Enabled `handleType` options for section types = basket/tandom/bottle-unit
 - 1:00  PM: Stuck badly.
 - 2:00  PM: Tested and **Fixed:** handleType options enabled for kitchen. Submitted **PR #650** to `release`.
-- 3:15  PM: 
+- 3:15  PM: Who is using the `hotspot-entrance` from `layoutPlanner`? Why the hotspot is broken for first person?
+- 6:00  PM: Starting up again with `Hotspot for initializing first person is broken`.
+- 9:30  PM: **PR #653** Submitted to release. **Fixed:** Hotspot for initializing first person is broken.
 
 ## **Wednesday: April 10**
 - 9:30  AM: Signed In.
