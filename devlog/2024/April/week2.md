@@ -4,6 +4,12 @@ title: Week 15
 ---
 
 # **April Week 2**
+## **Wednesday: April 11**
+- 9:30  AM: Signed In.
+- 12:00 PM: Enabled `handleType` options for section types = basket/tandom/bottle-unit
+- 1:00  PM: Stuck badly.
+- 2:00  PM: Tested and **Fixed:** handleType options enabled for kitchen. Submitted **PR #650** to `release`.
+
 ## **Wednesday: April 10**
 - 9:30  AM: Signed In.
 - 11:00 AM: Updated **PR #636**. Section already has the `getHandleType()` method.  
