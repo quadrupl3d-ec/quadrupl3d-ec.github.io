@@ -4,6 +4,11 @@ title: Week 15
 ---
 
 # **April Week 2**
+## **Friday: April 12**
+- 9:30  AM: Signed In.
+- 1:00  PM: Confused.
+- 7:30  PM: Had the encounter with the `Bug of the month`. Bug is tied to Undo manager.
+
 ## **Thursday: April 11**
 - 9:30  AM: Signed In.
 - 12:00 PM: Enabled `handleType` options for section types = basket/tandom/bottle-unit
