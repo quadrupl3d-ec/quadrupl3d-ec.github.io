@@ -4,6 +4,11 @@ title: Week 15
 ---
 
 # **April Week 2**
+## **Saturday: April 13**
+- 9:30  AM: Signed In.
+- 11:30 PM: **PR #663** Submitted. **Fixed:** show trash icon in edit mode (ModularUI).
+- 12:30 PM: **PR 664** Submitted. **Fixed:** Persisting handleType in all possible cases + refactor.
+
 ## **Friday: April 12**
 - 9:30  AM: Signed In.
 - 1:00  PM: Confused.
