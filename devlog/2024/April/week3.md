@@ -11,3 +11,4 @@ title: Week 16
 - 1:15  PM: If shift key is pressed and material is applied, then change the material of all the layout furnishings. Need to implement it for woodwork furnishings as well.
 - 4:00  PM: Implemented shift + double click for layout and woodwork furnishings. **PR #685** Submitted.
 - 5:15  PM: **PR #685** Updated. Tested in all cases. Filtering woodwork furnishing meshes and layout furnishing meshes using the mesh and the scene tree. Using `M` key for moving the furnishing instead of `Shift`.
+- 8:00  PM: Error getting renders in the latest release if the woodwork has a furnishing.
