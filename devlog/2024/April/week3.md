@@ -10,7 +10,7 @@ title: Week 16
 - 12:30 PM: Not able to get night renders in production.
 - 1:30  PM: WSL goes off. Not able to log into WSL.
 - 3:00  PM: We enabled fast GI for version `3.2.2`. Therefore, in production, if we get night renders, then ao's effect will be added to the night lights, thereby over illuminating the render.
-
+- 3:15  PM: **PR #693** Submitted to `release`.
 
 ## **Tuesday: April 16**
 - 9:10  AM: Signed In.
