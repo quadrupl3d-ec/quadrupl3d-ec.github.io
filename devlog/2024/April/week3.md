@@ -4,6 +4,10 @@ title: Week 16
 ---
 
 # **April Week 3**
+## **Wednesday: April 17**
+- 9:10  AM: Signed In.
+- 11:30 AM: **PR #690** Submitted to release. **Fixed:** Renders not working if woodwork furnishings are present in the scene.
+
 ## **Tuesday: April 16**
 - 9:10  AM: Signed In.
 - 11:30 AM: On `double click` on a mesh, changing the material of all the meshes who have the same slotname (for layout furnishings).
