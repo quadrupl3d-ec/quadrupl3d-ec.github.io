@@ -13,6 +13,7 @@ title: Week 16
 - 3:15  PM: **PR #693** Submitted to `release`.
 - 4:00  PM: **PR #694** Submitted to `release`. **Fixed:** Tooltip not shown on glass and light materials.
 - 4:30  PM: Updated **PR #635**. To create a rectangle, we need 4 points, not 8.
+- 5:30  PM: **PR #685** Updated. `Shift + Click` instead of `Shift + Double Click`.
 
 ## **Tuesday: April 16**
 - 9:10  AM: Signed In.
