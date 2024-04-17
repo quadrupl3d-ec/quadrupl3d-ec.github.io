@@ -11,6 +11,7 @@ title: Week 16
 - 1:30  PM: WSL goes off. Not able to log into WSL.
 - 3:00  PM: We enabled fast GI for version `3.2.2`. Therefore, in production, if we get night renders, then ao's effect will be added to the night lights, thereby over illuminating the render.
 - 3:15  PM: **PR #693** Submitted to `release`.
+- 4:00  PM: **PR #694** Submitted to `release`. **Fixed:** Tooltip not shown on glass and light materials.
 
 ## **Tuesday: April 16**
 - 9:10  AM: Signed In.
