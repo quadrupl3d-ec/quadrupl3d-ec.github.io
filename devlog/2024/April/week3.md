@@ -7,6 +7,10 @@ title: Week 16
 ## **Wednesday: April 17**
 - 9:10  AM: Signed In.
 - 11:30 AM: **PR #690** Submitted to release. **Fixed:** Renders not working if woodwork furnishings are present in the scene.
+- 12:30 PM: Not able to get night renders in production.
+- 1:30  PM: WSL goes off. Not able to log into WSL.
+- 3:00  PM: We enabled fast GI for version `3.2.2`. Therefore, in production, if we get night renders, then ao's effect will be added to the night lights, thereby over illuminating the render.
+
 
 ## **Tuesday: April 16**
 - 9:10  AM: Signed In.
