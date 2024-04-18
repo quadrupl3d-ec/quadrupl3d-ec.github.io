@@ -12,6 +12,7 @@ title: Week 16
 - 2:30  PM: **PR #699** Submitted. **Fixed:** Apply material to entire ledge.
 - 3:30  PM: Started testing the product at `beta.emptycup3d.com`.
 - 5:15  PM: Improvised the refactor. **PR #685** Updated.
+- 7:30 PM: Found some bugs in production. Added remarks in the excel sheet.
 
 ## **Wednesday: April 17**
 - 9:10  AM: Signed In.
