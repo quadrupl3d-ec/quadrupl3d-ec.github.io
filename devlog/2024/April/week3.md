@@ -4,6 +4,13 @@ title: Week 16
 ---
 
 # **April Week 3**
+## **Thursday: April 18**
+- 9:20  AM: Signed In.
+- 10:00 AM: **Fixed:** Only prompt for changing handleType for all sections if the sections `hasHandles()`
+- 10:15 AM: **PR #685** Updated. Refactored allMeshes, meshOnly to `scope`.
+- 11:30 AM: What is the ideal way to apply material only to the ledge?
+- 2:30  PM: **PR #699** Submitted. **Fixed:** Apply material to entire ledge.
+
 ## **Wednesday: April 17**
 - 9:10  AM: Signed In.
 - 11:30 AM: **PR #690** Submitted to release. **Fixed:** Renders not working if woodwork furnishings are present in the scene.
