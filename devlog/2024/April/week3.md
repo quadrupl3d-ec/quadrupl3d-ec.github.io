@@ -10,6 +10,7 @@ title: Week 16
 - 10:15 AM: **PR #685** Updated. Refactored allMeshes, meshOnly to `scope`.
 - 11:30 AM: What is the ideal way to apply material only to the ledge?
 - 2:30  PM: **PR #699** Submitted. **Fixed:** Apply material to entire ledge.
+- 3:30  PM: Started testing the product at `beta.emptycup3d.com`.
 
 ## **Wednesday: April 17**
 - 9:10  AM: Signed In.
