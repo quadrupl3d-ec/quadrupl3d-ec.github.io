@@ -11,6 +11,7 @@ title: Week 16
 - 11:30 AM: What is the ideal way to apply material only to the ledge?
 - 2:30  PM: **PR #699** Submitted. **Fixed:** Apply material to entire ledge.
 - 3:30  PM: Started testing the product at `beta.emptycup3d.com`.
+- 5:15  PM: Improvised the refactor. **PR #685** Updated.
 
 ## **Wednesday: April 17**
 - 9:10  AM: Signed In.
