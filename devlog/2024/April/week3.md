@@ -4,6 +4,11 @@ title: Week 16
 ---
 
 # **April Week 3**
+## **Thursday: April 19**
+- 9:20  AM: Signed In.
+- 11:00 AM: Cleaner implementation of `Apply material to the entire ledge.` Combining all the meshes into a single mesh.
+- 11:30 AM: Submitted `ledge.json`, being uploaded to the blob storage.
+
 ## **Thursday: April 18**
 - 9:20  AM: Signed In.
 - 10:00 AM: **Fixed:** Only prompt for changing handleType for all sections if the sections `hasHandles()`
