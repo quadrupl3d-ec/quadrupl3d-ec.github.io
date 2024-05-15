@@ -20,6 +20,6 @@ March, 2024 - [Week 2](devlog/2024/March/week2.md)<br>
 March, 2024 - [Week 3](devlog/2024/March/week3.md)<br>
 March, 2024 - [Week 4](devlog/2024/March/week4.md)<br>
 
-April, 2024 - [Week 1](devlog/2024/April/week1.md)
-April, 2024 - [Week 2](devlog/2024/April/week2.md)
-April, 2024 - [Week 3](devlog/2024/April/week3.md)
+April, 2024 - [Week 1](devlog/2024/April/week1.md)<br>
+April, 2024 - [Week 2](devlog/2024/April/week2.md)<br>
+April, 2024 - [Week 3](devlog/2024/April/week3.md)<br>
