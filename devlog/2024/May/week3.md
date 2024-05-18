@@ -4,6 +4,11 @@ title: Week 17
 ---
 
 # **May Week 3**
+## **Saturday: May 18**
+- 8:15  AM: Signed In.
+- 10:00 AM: Fixed: Cupboard section not rendering properly after changing the internal section type to `hanger`.
+- 4:00  PM: Confused. Stuck. ModularUI.
+
 ## **Wednesday: May 15**
 - 11:00 AM: Signed In.
 - 12:00 PM: Re-installed windows 11, deleted all the partitions. Now I have 3 partitions of 500 Gib each. One is reserved for docker and WSL distros.
