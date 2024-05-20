@@ -9,3 +9,8 @@ title: Week 18
 - 9:00  AM: **Fixed:** Cupboard section not visible if internal section of a box is set to hanger. (**PR #989**)
 - 11:00 AM: Changed the controls for first person and orbit view. `pg up + q` replaces `x`, `pg dn + a` replaces `z`.
 - 11:30 AM: Removed `W S A D` for controlling first person camera. `page up OR q` replaces `x`. `page down OR a` replaces `z`. 
+- 3:00  PM: Implemented single axis pointer for X axis.  (Very smooth).
+- 5:00  PM: Implemented single axis pointer for all axes but seems too glitchy in Y and Z axes. Why is that happening?
+- 5:30  PM: What is the root cause?
+- 6:30  PM: Not able to figure out!.
+- 8:30  PM: 
