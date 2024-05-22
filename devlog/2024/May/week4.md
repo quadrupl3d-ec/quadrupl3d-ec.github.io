@@ -4,6 +4,10 @@ title: Week 18
 ---
 
 # **May Week 4**
+## **Wedday: May 22**
+- 8:00  AM: Signed In.
+- 1:00  PM: **Implemented:** Shift click to apply material to all the walls of the room. (**PR #1023**)
+
 ## **Tuesday: May 21**
 - 8:00  AM: Signed In.
 - 10:00 AM: Collaborating with Raj to debug glitches in single axis pointer.
@@ -11,6 +15,7 @@ title: Week 18
 - 2:00  PM: Implemented single axis pointer in Z direction using new concept. No more using dx, dy, dz, crossx etc. Simplified `_computeTranslation()`.
 - 3:00  PM: Implemented single axis pointer in all directions, refactored the code. Ready for review. (**PR #1000**)
 - 5:45  PM: Done with planning call for v0.6 and demo call.
+- 8:00  PM: Done with the scrum call for today.
 
 ## **Monday: May 20**
 - 8:00  AM: Signed In.
