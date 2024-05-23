@@ -4,7 +4,11 @@ title: Week 18
 ---
 
 # **May Week 4**
-## **Wedday: May 22**
+## **Thursday: May 23**
+- 8:30  AM: Signed In.
+- 8:00  PM: Signed out
+
+## **Wednesday: May 22**
 - 8:00  AM: Signed In.
 - 1:00  PM: **Implemented:** Shift click to apply material to all the walls of the room. (**PR #1023**)
 - 3:00  PM: If a Material is applied to the screen of a TV or laptop then its preset should be `glow` by default?
