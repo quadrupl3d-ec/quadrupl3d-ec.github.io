@@ -4,7 +4,7 @@ title: Week 19
 ---
 
 # **May Week 5**
-## **Monday: May 28**
+## **Tuesday: May 28**
 - 8:00  AM: Signed In.
 - 10:00 AM: Approved + Reviewed 2 PRs.
 - 11:00 AM: Reviewed **PR #1059** (Modular: Enabled box scale after partition)
