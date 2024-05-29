@@ -4,6 +4,11 @@ title: Week 19
 ---
 
 # **May Week 5**
+## **Wednesday: May 29**
+- 8:10  AM: Signed In.
+- 9:00  AM: Read and added docs about `Networking/`.
+- 11:00 AM: Created a very simple UI design for implementing challenges.
+
 ## **Tuesday: May 28**
 - 8:00  AM: Signed In.
 - 10:00 AM: Approved + Reviewed 2 PRs.
