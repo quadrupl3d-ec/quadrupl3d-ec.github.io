@@ -4,10 +4,19 @@ title: Week 19
 ---
 
 # **May Week 5**
+## **Thursday: May 30**
+- 8:30  AM: Signed In.
+- 11:00 AM: Created a very simple UI design for implementing challenges.
+- 1:00  PM: Styled the navigation bar.(UI)
+- 3:30  PM: Connected the backend + setup routing + updated floorplan in AutoCAD. Tried to upload the pdf to blob store but failed.
+- 7:00  PM: Got blocked on requested changes. Re-opened an issue.
+- 8:00  PM: 
+
 ## **Wednesday: May 29**
 - 8:10  AM: Signed In.
 - 9:00  AM: Read and added docs about `Networking/`.
-- 11:00 AM: Created a very simple UI design for implementing challenges.
+- 11:00 AM: 
+- 8:00  PM: Done with the scrum call.
 
 ## **Tuesday: May 28**
 - 8:00  AM: Signed In.
