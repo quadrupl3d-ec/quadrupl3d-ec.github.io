@@ -7,7 +7,8 @@ title: Week 19
 ## **Friday: May 31**
 - 8:05  AM: Signed In.
 - 12:30 PM: Done studying about Networking, OS and shell basics.
-- 
+- 3:30  PM: Updated `Implement chalenges` PR.
+- 6:00  PM: Done with the `Emptycup Way` weekly meetup.
 
 ## **Thursday: May 30**
 - 8:30  AM: Signed In.
