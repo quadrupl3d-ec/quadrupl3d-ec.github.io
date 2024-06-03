@@ -26,3 +26,6 @@ April, 2024 - [Week 3](devlog/2024/April/week3.md)<br>
 
 May, 2024 - [Week 3](devlog/2024/May/week3.md)<br>
 May, 2024 - [Week 4](devlog/2024/May/week4.md)<br>
+May, 2024 - [Week 5](devlog/2024/May/week5.md)<br>
+
+June, 2024 - [Week 1](devlog/2024/June/week1.md)<br>
