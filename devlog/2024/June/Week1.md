@@ -4,6 +4,11 @@ title: Week 20
 ---
 
 # **June Week 2**
+## **Tuesday: June 11**
+- 8:20  AM: Signed In.
+- 8:00  PM: Done with the scrum call<br>
+**Dev hours**: **9.75**
+  
 ## **Monday: June 10**
 - 8:50  AM: Signed In.
 - 8:00  PM: Done with the weekly review call.<br>
