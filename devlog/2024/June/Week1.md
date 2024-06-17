@@ -6,7 +6,8 @@ title: Week 20
 # **June Week 3**
 ## **Monday: June 17**
 - 8:10  AM: Signed In..
-- 
+- 8:00  PM: Signed out.
+**Dev hours**: **9.50**
 
 # **June Week 2**
 ## **Tuesday: June 11**
