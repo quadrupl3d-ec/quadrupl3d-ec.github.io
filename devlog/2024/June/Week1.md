@@ -3,6 +3,11 @@ layout: default
 title: Week 20
 ---
 
+# **June Week 3**
+## **Monday: June 17**
+- 8:10  AM: Signed In..
+- 
+
 # **June Week 2**
 ## **Tuesday: June 11**
 - 8:20  AM: Signed In.
